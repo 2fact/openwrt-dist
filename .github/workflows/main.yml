@@ -1,7 +1,7 @@
 name: Openwrt Build Bot
 on:
-  push:
-    branches: master
+  # push:
+  #   branches: master
   # schedule:
   # - cron: 0 0 * * *
   workflow_dispatch:
@@ -90,8 +90,8 @@ jobs:
         # Upload base only
         cd ~/sdk/bin/packages/*/base
         git init
-        git config user.name "bot"
-        git config user.email "bot@github.com"
+        git config user.name "GitHub Action"
+        git config user.email "actions-user@users.noreply.github.com"
         git add .
         git commit -m "$TAG$(TZ='Asia/Shanghai' date +@%Y%m%d)"
         git push --force --quiet "https://$GITHUB_TOKEN@github.com/2fact/openwrt-dist.git" HEAD:$TAG
