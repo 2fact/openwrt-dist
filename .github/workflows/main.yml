@@ -67,7 +67,8 @@ jobs:
         git clone --depth 1 -b v5 https://github.com/sbwml/luci-app-mosdns package/mosdns
         git clone --depth 1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
         # chinadns-ng
-        git clone --depth 1 https://github.com/zfl9/chinadns-ng package/chinadns-ng
+        mkdir -p package/chinadns-ng
+        curl -L https://raw.githubusercontent.com/immortalwrt/packages/master/net/chinadns-ng/Makefile > package/chinadns-ng/Makefile
         # homeproxy
         git clone --depth 1 https://github.com/immortalwrt/homeproxy package/homeproxy
         # luci-app-xray
