@@ -66,6 +66,8 @@ jobs:
         git clone --depth 1 https://github.com/sbwml/luci-app-alist package/alist
         git clone --depth 1 -b v5 https://github.com/sbwml/luci-app-mosdns package/mosdns
         git clone --depth 1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+        # chinadns-ng
+        git clone --depth 1 https://github.com/zfl9/chinadns-ng package/chinadns-ng
         # homeproxy
         git clone --depth 1 https://github.com/immortalwrt/homeproxy package/homeproxy
         # luci-app-xray
@@ -169,8 +171,8 @@ jobs:
         cd $IB_HOME/bin/targets/$(cut -b 10- <<< $TAG)
         cp * $ARTIFACTPATH
         git init
-        git config user.name "bot"
-        git config user.email "bot@github.com"
+        git config user.name "GitHub Action"
+        git config user.email "actions-user@users.noreply.github.com"
         git add .
         git commit -m "$PROFILE$(TZ='Asia/Shanghai' date +@%Y%m%d)"
         git push --force --quiet "https://$GITHUB_TOKEN@github.com/2fact/openwrt-dist.git" HEAD:image/$PROFILE
