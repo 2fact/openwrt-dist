@@ -74,7 +74,7 @@ jobs:
         # luci-app-xray
         git clone --depth 1 https://github.com/yichya/luci-app-xray package/luci-app-xray
         # luci-app-passwall2
-        git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2 package/openwrt-passwall2
+        git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
         mv package/luci-app-passwall2/luci-app-passwall2/* package/luci-app-passwall2/
         # Dependency
         #git clone -b master https://github.com/shadowsocks/openwrt-feeds package/custom
