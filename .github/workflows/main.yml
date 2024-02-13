@@ -76,6 +76,11 @@ jobs:
         # luci-app-passwall2
         git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
         mv package/luci-app-passwall2/luci-app-passwall2/* package/luci-app-passwall2/
+        # openwrt-passwall-packages
+        git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall-packages
+        cd package/openwrt-passwall-packages
+        for f in *; do [ -d ../$f ] || mv $f ../; done
+        cd - 
         # Dependency
         #git clone -b master https://github.com/shadowsocks/openwrt-feeds package/custom
         pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
