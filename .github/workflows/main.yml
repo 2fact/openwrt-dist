@@ -92,7 +92,7 @@ jobs:
         curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/rust/Makefile > feeds/packages/lang/rust/Makefile
         for p in package/feeds/packages/rust/patches/*; do 
           BP=$(basename $p); 
-          curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/rust/patches/$BP > feeds/packages/lang/rust/patches/$BP;
+          curl -L -o feeds/packages/lang/rust/patches/$BP https://raw.githubusercontent.com/openwrt/packages/master/lang/rust/patches/$BP;
         done
         ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6 rust
     - name: Compile
