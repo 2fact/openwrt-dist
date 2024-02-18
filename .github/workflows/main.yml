@@ -1,7 +1,7 @@
 name: Openwrt Build Bot
 on:
-  # push:
-  #   branches: master
+  push:
+    branches: master
   # schedule:
   # - cron: 0 0 * * *
   workflow_dispatch:
@@ -85,13 +85,15 @@ jobs:
         #git clone -b master https://github.com/shadowsocks/openwrt-feeds package/custom
         pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
         ./scripts/feeds update -a
+        # Patch Golang version to be >= 1.21.4 for Xray-core
+        curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/golang/golang/Makefile > feeds/packages/lang/golang/golang/Makefile
         ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6
     - name: Compile
       run: |
         cd ~/sdk
         make defconfig
         # Edit config
-        make V=s
+        make -j($nproc) || make V=s
     - name: Upload
       env:
         SDK_URL: ${{ matrix.SDK_URL }}
