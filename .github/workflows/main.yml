@@ -93,7 +93,7 @@ jobs:
         cd ~/sdk
         make defconfig
         # Edit config
-        make -j($nproc) || make V=s
+        make -j$(nproc) || make V=s
     - name: Upload
       env:
         SDK_URL: ${{ matrix.SDK_URL }}
