@@ -81,6 +81,8 @@ jobs:
         cd package/openwrt-passwall-packages
         for f in *; do [ -d ../$f ] || mv $f ../; done
         cd - 
+        # libudns for shadowsocksr-libev
+        git clone --depth 1 https://github.com/hqvv/openwrt-udns package/network/utils/openwrt-udns
         # Dependency
         #git clone -b master https://github.com/shadowsocks/openwrt-feeds package/custom
         pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
