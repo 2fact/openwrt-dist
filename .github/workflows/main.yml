@@ -89,7 +89,7 @@ jobs:
         ./scripts/feeds update -a
         # Patch Golang version to be >= 1.21.4 for Xray-core
         curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/golang/golang/Makefile > feeds/packages/lang/golang/golang/Makefile
-        ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6
+        ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6 rust
     - name: Compile
       run: |
         cd ~/sdk
