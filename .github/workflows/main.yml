@@ -76,24 +76,24 @@ jobs:
         # luci-app-passwall2
         git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
         mv package/luci-app-passwall2/luci-app-passwall2/* package/luci-app-passwall2/
-        # openwrt-passwall-packages
-        git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall-packages
-        cd package/openwrt-passwall-packages
-        for f in *; do [ -d ../$f ] || mv $f ../; done
-        cd - 
-        # libudns for shadowsocksr-libev
-        git clone --depth 1 https://github.com/hqvv/openwrt-udns package/network/utils/openwrt-udns
+        # # openwrt-passwall-packages
+        # git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall-packages
+        # cd package/openwrt-passwall-packages
+        # for f in *; do [ -d ../$f ] || mv $f ../; done
+        # cd - 
+        # # libudns for shadowsocksr-libev
+        # git clone --depth 1 https://github.com/hqvv/openwrt-udns package/network/utils/openwrt-udns
         # Dependency
         #git clone -b master https://github.com/shadowsocks/openwrt-feeds package/custom
         pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
         ./scripts/feeds update -a
-        # Patch Golang version to be >= 1.21.4 for Xray-core
-        curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/golang/golang/Makefile > feeds/packages/lang/golang/golang/Makefile
-        curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/rust/Makefile > feeds/packages/lang/rust/Makefile
-        for p in feeds/packages/lang/rust/patches/*; do
-          curl -L -o $p https://raw.githubusercontent.com/openwrt/packages/master/lang/rust/patches/$(basename $p);
-        done
-        ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6 rust boost
+        # # Patch Golang version to be >= 1.21.4 for Xray-core
+        # curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/golang/golang/Makefile > feeds/packages/lang/golang/golang/Makefile
+        # curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/rust/Makefile > feeds/packages/lang/rust/Makefile
+        # for p in feeds/packages/lang/rust/patches/*; do
+        #   curl -L -o $p https://raw.githubusercontent.com/openwrt/packages/master/lang/rust/patches/$(basename $p);
+        # done
+        ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre libncursesw6 # rust boost
     - name: Compile
       run: |
         cd ~/sdk
