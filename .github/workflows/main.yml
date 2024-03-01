@@ -114,6 +114,10 @@ jobs:
         git add .
         git commit -m "$TAG$(TZ='Asia/Shanghai' date +@%Y%m%d)"
         git push --force --quiet "https://$GITHUB_TOKEN@github.com/2fact/openwrt-dist.git" HEAD:$TAG
+        # Purge jsdelivr CDN
+        for file in $(ls); do
+          curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@$TAG/${file}"
+        done
   buildimg:
     name: Build Openwrt Image
     needs: buildpkg
