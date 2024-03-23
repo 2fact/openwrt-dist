@@ -2,8 +2,8 @@ name: Openwrt Build Bot
 on:
   push:
     branches: master
-  # schedule:
-  # - cron: 0 0 * * *
+  schedule:
+  - cron: 0 0 * * *
   workflow_dispatch:
 
 jobs:
@@ -73,6 +73,9 @@ jobs:
         git clone --depth 1 https://github.com/immortalwrt/homeproxy package/homeproxy
         # luci-app-xray
         git clone --depth 1 https://github.com/yichya/luci-app-xray package/luci-app-xray
+        # luci-app-passwall
+        git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+        mv package/luci-app-passwall/luci-app-passwall/* package/luci-app-passwall/
         # luci-app-passwall2
         git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
         mv package/luci-app-passwall2/luci-app-passwall2/* package/luci-app-passwall2/
