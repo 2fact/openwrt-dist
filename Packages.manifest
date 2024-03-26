@@ -499,10 +499,10 @@ Section: Custom
 SourceDateEpoch: 1710661897
 Maintainer: yichya <mail@yichya.dev>
 Architecture: all
-Installed-Size: 3347
+Installed-Size: 3346
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
 Size: 4118
-SHA256sum: 0cd151e38306e62038581fa0df3a56133b6e4397954087843161800a005908b0
+SHA256sum: 565c23336ad4dbcccd18f2ec7a5b669528fdcd7ec4c8e449f73d7a6f7e122b3e
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -537,7 +537,7 @@ SHA256sum: 871b8cf5c333c53d8b3509cf393fb460a942436ee2915ae2044207706830c57c
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240326.59295
+Version: 240326.61191
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-pl
@@ -547,13 +547,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240326.59295_all.ipk
-Size: 3029
-SHA256sum: 7fa36e6c7a3085a27086b66ab380888d8eb90f155182c79ecfe83f2f79315132
+Filename: luci-i18n-diskman-pl_240326.61191_all.ipk
+Size: 3026
+SHA256sum: 61061ed6b1a656bbf8a33bfc94e47a3fa3ad2da9fbed944f147df93954fc080d
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240326.59295
+Version: 240326.61191
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-cn
@@ -563,13 +563,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240326.59295_all.ipk
-Size: 3043
-SHA256sum: 3a6bf3d20fc5abff49c1ab0d7c125006be16069895dbc9eaaf68d54c1a00216f
+Filename: luci-i18n-diskman-zh-cn_240326.61191_all.ipk
+Size: 3045
+SHA256sum: 021467acbb5181b43fb5ba58bdff87669f10fa54b744414ff956883dc32aae20
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240326.59295
+Version: 240326.61191
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-tw
@@ -579,13 +579,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240326.59295_all.ipk
-Size: 3057
-SHA256sum: 254eedff217b35cbd1e0300dd0ac6d3ce29cadd18e27e41c5963481975dec09a
+Filename: luci-i18n-diskman-zh-tw_240326.61191_all.ipk
+Size: 3054
+SHA256sum: cef4b9bd5657b6df224d6ac3cdfb74f378c39ebcfe77dab47d855d7826be54c9
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240326.59295
+Version: 240326.61190
 Depends: libc, luci-app-dockerman
 Source: package/luci-app-dockerman
 SourceName: luci-i18n-dockerman-zh-cn
@@ -595,9 +595,9 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <lisaac.cn@gmail.com> Florian Eckert <fe@dev.tdt.de>
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240326.59295_all.ipk
-Size: 6648
-SHA256sum: 38711ae2188179f8e826daf07af0966346a5498b70085ab9ddd34f525de89ee3
+Filename: luci-i18n-dockerman-zh-cn_240326.61190_all.ipk
+Size: 6646
+SHA256sum: 65a768e16fb296bdd24ae482accdbf0abf7c56b7e6adb42b5fc08171ad5b7eaa
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -958,10 +958,10 @@ Section: net
 SourceDateEpoch: 1586253442
 Maintainer: HotBird64
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 60619
+Installed-Size: 60636
 Filename: vlmcsd_svn1113-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 61378
-SHA256sum: 6054bf4b2fedb62a1003b484567a959ab8c9dd8b0b773c158adce9cdb40a8817
+Size: 61273
+SHA256sum: 7f3ee9388f2fc02cebdfa6e6525f995f1ecac5402ffdbca19b55617951d80ee6
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
