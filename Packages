@@ -368,8 +368,8 @@ Section: Custom
 Architecture: all
 Installed-Size: 3347
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
-Size: 4113
-SHA256sum: 12b9151e04b6cfccee2c28a5dc4526229a2d85b33c0a17f89d79f9f6abbe9199
+Size: 4118
+SHA256sum: 0cd151e38306e62038581fa0df3a56133b6e4397954087843161800a005908b0
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -396,51 +396,51 @@ SHA256sum: 871b8cf5c333c53d8b3509cf393fb460a942436ee2915ae2044207706830c57c
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240326.55232
+Version: 240326.59295
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240326.55232_all.ipk
-Size: 3022
-SHA256sum: c4846ce4b36f92f1ccff4758f1a2a9b472d2894ed68eeb238a3bc0d1660acbcd
+Filename: luci-i18n-diskman-pl_240326.59295_all.ipk
+Size: 3029
+SHA256sum: 7fa36e6c7a3085a27086b66ab380888d8eb90f155182c79ecfe83f2f79315132
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240326.55232
+Version: 240326.59295
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240326.55232_all.ipk
-Size: 3045
-SHA256sum: 655df0f02d00408d8e626221c5ee1c532dd307c77d5497ab190acd4254aec219
+Filename: luci-i18n-diskman-zh-cn_240326.59295_all.ipk
+Size: 3043
+SHA256sum: 3a6bf3d20fc5abff49c1ab0d7c125006be16069895dbc9eaaf68d54c1a00216f
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240326.55232
+Version: 240326.59295
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240326.55232_all.ipk
-Size: 3051
-SHA256sum: 1de46efab695798b338ffe081fbca641bb4c2a93ebede36e130442b5a29c2e11
+Filename: luci-i18n-diskman-zh-tw_240326.59295_all.ipk
+Size: 3057
+SHA256sum: 254eedff217b35cbd1e0300dd0ac6d3ce29cadd18e27e41c5963481975dec09a
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240326.55231
+Version: 240326.59295
 Depends: libc, luci-app-dockerman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240326.55231_all.ipk
-Size: 6645
-SHA256sum: 20fda6cda73ec7f645470a57bb67d8123ee831c5fb4fdfc73138859ae744009f
+Filename: luci-i18n-dockerman-zh-cn_240326.59295_all.ipk
+Size: 6648
+SHA256sum: 38711ae2188179f8e826daf07af0966346a5498b70085ab9ddd34f525de89ee3
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -708,10 +708,10 @@ Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 60621
+Installed-Size: 60619
 Filename: vlmcsd_svn1113-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 61290
-SHA256sum: b2125ddc1792a69d47abdb12d02d885a52090df3d6f2bc06cab6df547c5aa3d1
+Size: 61378
+SHA256sum: 6054bf4b2fedb62a1003b484567a959ab8c9dd8b0b773c158adce9cdb40a8817
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
