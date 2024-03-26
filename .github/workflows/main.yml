@@ -123,6 +123,8 @@ jobs:
     name: Build Openwrt Image
     needs: buildpkg
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     strategy:
       fail-fast: false
       matrix:
@@ -146,13 +148,13 @@ jobs:
         IB_URL: ${{ matrix.IB_URL }}
       run: |
         wget $IB_URL
-        tar xf $(basename $IB_URL)
+        tar xf $(basename $IB_URL) -C ~/
     - name: Fetch Files
       env:
         IB_URL: ${{ matrix.IB_URL }}
       if: matrix.INCLUDE_FILES
       run: |
-        IB_HOME=$(basename $IB_URL|head -c -8)
+        IB_HOME=~/$(basename $IB_URL|head -c -8)
         BRANCH=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $IB_URL)
         cd $IB_HOME
         mkdir -p files/root/
@@ -167,7 +169,7 @@ jobs:
         PACKAGES: ${{ matrix.PACKAGES }}
         ROOTFS_PARTSIZE: ${{ matrix.ROOTFS_PARTSIZE }}
       run: |
-        IB_HOME=$(basename $IB_URL|head -c -8)
+        IB_HOME=~/$(basename $IB_URL|head -c -8)
         BRANCH=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $IB_URL)
         cd $IB_HOME
         sed -i "/check_signature/d" repositories.conf
@@ -183,7 +185,7 @@ jobs:
         PROFILE: ${{ matrix.PROFILE }}
         IB_URL: ${{ matrix.IB_URL }}
       run: |
-        IB_HOME=$(basename $IB_URL|head -c -8)
+        IB_HOME=~/$(basename $IB_URL|head -c -8)
         TAG=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $IB_URL)
         IMAGES=$IB_HOME/bin/targets/$(cut -b 10- <<< $TAG)
         # Upload image
