@@ -159,7 +159,7 @@ jobs:
         cd $IB_HOME
         mkdir -p files/root/
         mkdir -p files/etc/opkg/
-        cp ../simonsmh-dist.pub files/root/
+        cp ${{ github.workspace }}/simonsmh-dist.pub files/root/
         echo "src/gz 2fact https://github.com/2fact/openwrt-dist/raw/$BRANCH" > files/etc/opkg/customfeeds.conf
     - name: Build Image
       shell: bash
