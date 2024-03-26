@@ -116,6 +116,7 @@ jobs:
         git checkout --track origin/$TAG
         git branch -avv
         # Upload base only
+        rm -rf *
         rsync -av ~/sdk/bin/packages/*/base/ .
         git config user.name "GitHub Action"
         git config user.email "actions-user@users.noreply.github.com"
