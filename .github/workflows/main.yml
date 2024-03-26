@@ -19,10 +19,6 @@ jobs:
         - https://downloads.openwrt.org/releases/23.05.3/targets/ipq806x/generic/openwrt-sdk-23.05.3-ipq806x-generic_gcc-12.3.0_musl_eabi.Linux-x86_64.tar.xz
         - https://downloads.openwrt.org/releases/23.05.3/targets/x86/64/openwrt-sdk-23.05.3-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
     steps:
-    - name: Free Disk Space
-      uses: jlumbroso/free-disk-space@main
-      with:
-        large-packages: false
     - uses: actions/checkout@main
     - name: Env for Openwrt SDK
       run: sudo apt update && sudo apt install -y libev-dev libc-ares-dev libudns-dev libncurses-dev libfuse-dev
@@ -68,9 +64,6 @@ jobs:
         git clone --depth 1 https://github.com/sbwml/luci-app-alist package/alist
         git clone --depth 1 -b v5 https://github.com/sbwml/luci-app-mosdns package/mosdns
         git clone --depth 1 https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
-        # chinadns-ng
-        mkdir -p package/chinadns-ng
-        curl -L https://raw.githubusercontent.com/immortalwrt/packages/master/net/chinadns-ng/Makefile > package/chinadns-ng/Makefile
         # homeproxy
         git clone --depth 1 https://github.com/immortalwrt/homeproxy package/homeproxy
         # luci-app-xray
@@ -83,7 +76,7 @@ jobs:
         mv package/luci-app-passwall2/luci-app-passwall2/* package/luci-app-passwall2/
         # openwrt-passwall-packages (selective)
         git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall-packages
-        for f in dns2socks dns2tcp tcping; do mv package/openwrt-passwall-packages/$f package/; done
+        for f in dns2socks dns2tcp tcping chinadns-ng; do mv package/openwrt-passwall-packages/$f package/; done
         rm -rf package/openwrt-passwall-packages/*
         # # libudns for shadowsocksr-libev
         # git clone --depth 1 https://github.com/hqvv/openwrt-udns package/network/utils/openwrt-udns
@@ -107,13 +100,12 @@ jobs:
     - name: Upload
       env:
         SDK_URL: ${{ matrix.SDK_URL }}
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
       run: |
-        TAG=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $SDK_URL)
+        BRANCH=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $SDK_URL)
         # Switch branch with shallow clone
-        git remote set-branches origin $TAG
-        git fetch --depth 1 origin $TAG
-        git checkout --track origin/$TAG
+        git remote set-branches origin $BRANCH
+        git fetch --depth 1 origin $BRANCH
+        git checkout --track origin/$BRANCH
         git branch -avv
         # Upload base only
         rm -rf *
@@ -121,11 +113,11 @@ jobs:
         git config user.name "GitHub Action"
         git config user.email "actions-user@users.noreply.github.com"
         git add .
-        git commit -m "$TAG$(TZ='Asia/Shanghai' date +@%Y%m%d)"
+        git commit -m "$BRANCH$(TZ='Asia/Shanghai' date +@%Y%m%d)"
         git push
         # Purge jsdelivr CDN
         for file in $(ls); do
-          curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@$TAG/${file}"
+          curl -i "https://purge.jsdelivr.net/gh/${{ github.repository }}@$BRANCH/${file}"
         done
   buildimg:
     name: Build Openwrt Image
@@ -161,12 +153,12 @@ jobs:
       if: matrix.INCLUDE_FILES
       run: |
         IB_HOME=$(basename $IB_URL|head -c -8)
-        TAG=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $IB_URL)
+        BRANCH=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $IB_URL)
         cd $IB_HOME
         mkdir -p files/root/
         mkdir -p files/etc/opkg/
         cp ../simonsmh-dist.pub files/root/
-        echo "src/gz 2fact https://cdn.jsdelivr.net/gh/2fact/openwrt-dist@$TAG" > files/etc/opkg/customfeeds.conf
+        echo "src/gz 2fact https://github.com/2fact/openwrt-dist/raw/$BRANCH" > files/etc/opkg/customfeeds.conf
     - name: Build Image
       shell: bash
       env:
@@ -176,10 +168,10 @@ jobs:
         ROOTFS_PARTSIZE: ${{ matrix.ROOTFS_PARTSIZE }}
       run: |
         IB_HOME=$(basename $IB_URL|head -c -8)
-        TAG=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $IB_URL)
+        BRANCH=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $IB_URL)
         cd $IB_HOME
         sed -i "/check_signature/d" repositories.conf
-        echo "src/gz 2fact https://github.com/2fact/openwrt-dist/raw/$TAG" >> repositories.conf
+        echo "src/gz 2fact https://github.com/2fact/openwrt-dist/raw/$BRANCH" >> repositories.conf
         makeopts=("PROFILE=${PROFILE%.*}" "PACKAGES=$PACKAGES")
         [[ -d files ]] && makeopts+=("FILES=files/")
         [[ $ROOTFS_PARTSIZE -gt 0 ]] && makeopts+=("ROOTFS_PARTSIZE=$ROOTFS_PARTSIZE")
@@ -190,23 +182,24 @@ jobs:
       env:
         PROFILE: ${{ matrix.PROFILE }}
         IB_URL: ${{ matrix.IB_URL }}
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
       run: |
         IB_HOME=$(basename $IB_URL|head -c -8)
         TAG=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $IB_URL)
-        # Prepare Release
-        ARTIFACTPATH="$(pwd)/image"
-        mkdir -p $ARTIFACTPATH
+        IMAGES=$IB_HOME/bin/targets/$(cut -b 10- <<< $TAG)
         # Upload image
-        cd $IB_HOME/bin/targets/$(cut -b 10- <<< $TAG)
-        cp * $ARTIFACTPATH
-        git init
+        BRANCH="image/$PROFILE"
+        git remote set-branches origin $BRANCH
+        git fetch --depth 1 origin $BRANCH
+        git checkout --track origin/$BRANCH
+        git branch -avv
+        rm -rf *
+        rsync -av $IMAGES/ .
         git config user.name "GitHub Action"
         git config user.email "actions-user@users.noreply.github.com"
         git add .
         git commit -m "$PROFILE$(TZ='Asia/Shanghai' date +@%Y%m%d)"
-        git push --force --quiet "https://$GITHUB_TOKEN@github.com/2fact/openwrt-dist.git" HEAD:image/$PROFILE
+        git push
     - uses: actions/upload-artifact@main
       with:
         name: image_${{ matrix.PROFILE }}
-        path: ./image
+        path: ./
