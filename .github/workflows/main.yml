@@ -204,4 +204,6 @@ jobs:
     - uses: actions/upload-artifact@main
       with:
         name: image_${{ matrix.PROFILE }}
-        path: ./
+        path: |
+          ./
+          !./.git
