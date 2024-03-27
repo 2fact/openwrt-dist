@@ -71,6 +71,21 @@ Size: 12083
 SHA256sum: 0aa03318c77216a4f91e3258c9cbe63e0fd4bc18d70c131b2af8e5992076e4b1
 Description:  utility to convert dns query from udp to tcp
 
+Package: hysteria
+Version: 2.4.0-1
+Depends: libc, ca-bundle
+License: MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5731023
+Filename: hysteria_2.4.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5723296
+SHA256sum: e59e8fe751ae8b95adee6a03de166b0d95f583445a9e3e7fa0137ad5c020d317
+Description:  Hysteria is a feature-packed network utility optimized for networks
+ of poor quality (e.g. satellite connections, congested public Wi-Fi,
+ connecting from China to servers abroad) powered by a custom version
+ of QUIC protocol.
+
 Package: libmbedtls12
 Version: 2.28.7-2
 Depends: libc
@@ -369,7 +384,7 @@ Architecture: all
 Installed-Size: 3346
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
 Size: 4119
-SHA256sum: 052b9c8081b007c9612c9beaede0d5425477f605a5379991a04d8659b9d73b88
+SHA256sum: 919c29173f94b24350c0deee39e05b676cbf3eb2683031de3861c310c5a58c6c
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -396,51 +411,51 @@ SHA256sum: 871b8cf5c333c53d8b3509cf393fb460a942436ee2915ae2044207706830c57c
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240327.10925
+Version: 240327.17842
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240327.10925_all.ipk
-Size: 3026
-SHA256sum: 6474d0b23f2a7ef368c074c87077fda723e2e4b3ce096ae72bb02d0969a0d5c5
+Filename: luci-i18n-diskman-pl_240327.17842_all.ipk
+Size: 3022
+SHA256sum: db67826226fc284996248dfeeabea9bbd0ff150a54ae4141c9d696a37cf6be77
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240327.10925
+Version: 240327.17842
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240327.10925_all.ipk
-Size: 3046
-SHA256sum: 7af18237202b5d44ae5a6f84f456496100e5b59db21b16b376605ab1e92172cb
+Filename: luci-i18n-diskman-zh-cn_240327.17842_all.ipk
+Size: 3048
+SHA256sum: 5402215954f05b97ca1af866e9cb859eee204cb3fc23ea667672914c45fd4a82
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240327.10925
+Version: 240327.17842
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240327.10925_all.ipk
-Size: 3051
-SHA256sum: 5265764cee6e6555d02561ea2a092e87a0bf9ad79fbcd95bf1b80d9f92958061
+Filename: luci-i18n-diskman-zh-tw_240327.17842_all.ipk
+Size: 3055
+SHA256sum: ea88d9f907d8c36af5160ceef67b0e64ac81fa2838eba958dca763f79cb3bc5d
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240327.10925
+Version: 240327.17842
 Depends: libc, luci-app-dockerman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240327.10925_all.ipk
-Size: 6647
-SHA256sum: ab401f3d5397e1d3b6b74bd6826319b3000ebc02b6901ee00bacf9165a45ecf9
+Filename: luci-i18n-dockerman-zh-cn_240327.17842_all.ipk
+Size: 6646
+SHA256sum: 188333fecd539b9ab4b0f083ddfed18d7bb37aabfca65be5ed3a5b401596ab2f
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -640,6 +655,19 @@ Size: 28044
 SHA256sum: 63310eb3303cefba96086f9b67f569c6d930ef9214457bf63c7a69765811372e
 Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
 
+Package: sing-box
+Version: 1.8.10-1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 9630335
+Filename: sing-box_1.8.10-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9614395
+SHA256sum: 9346ddf58799dba1d21c1252961b02b2729d43bba7368ce2541991c2e2d2ee21
+Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS,
+ Shadowsocks, ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
+
 Package: smartdns
 Version: 1.2024.45-1
 Depends: libc, libpthread, libopenssl3
@@ -710,8 +738,8 @@ Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 60636
 Filename: vlmcsd_svn1113-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 61320
-SHA256sum: 43883920a23b3198c5a0648a0d05cc91273064b57f3890fd72df25f289d0efa0
+Size: 61315
+SHA256sum: dd940dfdac152ef0902c1e03cf699fed799ed1cbdf4050d2086896e2f202d2d5
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
