@@ -23,7 +23,7 @@ collectd-mod-rrdtool - 5.12.0-49
 coreutils - 9.3-1
 coreutils-base64 - 9.3-1
 coreutils-nohup - 9.3-1
-curl - 8.6.0-1
+curl - 8.7.1-r1
 dbus - 1.13.18-12
 dns-forwarder - 1.2.1-2
 dnsmasq-full - 2.90-2
@@ -158,7 +158,7 @@ libcap-bin - 2.69-1
 libcares - 1.27.0-1
 libcbor0 - 0.8.0-1
 libcomerr0 - 1.47.0-2
-libcurl4 - 8.6.0-1
+libcurl4 - 8.7.1-r1
 libdaemon - 0.14-5
 libdbus - 1.13.18-12
 libelf1 - 0.189-1
