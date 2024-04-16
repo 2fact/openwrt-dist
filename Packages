@@ -276,14 +276,14 @@ SHA256sum: 9dc306afe9263e5c211bfc11f28262a71f9bcc73c6c4f6a307f45575124ada76
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-mosdns
-Version: 1.5.19
+Version: 1.5.20
 Depends: libc, mosdns, jsonfilter, luci-compat, curl, v2ray-geoip, v2ray-geosite, v2dat, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 75515
-Filename: luci-app-mosdns_1.5.19_all.ipk
-Size: 76520
-SHA256sum: 8199a6b9f4de47615af61c676bf283496a0d30163b1f192c8ebe9d0b27fbdc2c
+Installed-Size: 75527
+Filename: luci-app-mosdns_1.5.20_all.ipk
+Size: 76549
+SHA256sum: a0731a740729786c228bad2a84c0fdf2952f70af0a3dc9e893e518480fafab50
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
@@ -397,10 +397,10 @@ Depends: libc, luci-app-xray, wget
 License: MPLv2
 Section: Custom
 Architecture: all
-Installed-Size: 3347
+Installed-Size: 3345
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
-Size: 4116
-SHA256sum: 863fcce1a0d7056d7ad19f44cd745a84187a790392e35335171e1115f6a91b81
+Size: 4119
+SHA256sum: d22df35ccc502ceb2d170e0975a07b46e4f2520d50c5dc1afa94132850b0c4ab
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -427,51 +427,51 @@ SHA256sum: 9a4244cf701905833e5d11bbf4621fdb582f5723719e9404b5c8d9b6d47c626a
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240415.12742
+Version: 240416.04500
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240415.12742_all.ipk
-Size: 3024
-SHA256sum: 034c244058bf0485fc773c6d8d4e01b09c07d0f7d347e6d790aac1c81e579521
+Filename: luci-i18n-diskman-pl_240416.04500_all.ipk
+Size: 3025
+SHA256sum: 910667b8ea21ff09ae1ebf714882a7026754828d0c9de1521c8277f871b0f44e
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240415.12742
+Version: 240416.04500
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240415.12742_all.ipk
-Size: 3041
-SHA256sum: 0f6190cb03ff790a0be625a8ad8920726e303e5bfcd3d59a89a79460db79eb87
+Filename: luci-i18n-diskman-zh-cn_240416.04500_all.ipk
+Size: 3044
+SHA256sum: 1b9600f2dcdbd7a1fa90d4fcb1a785d1940fd3c1caf04a69f3ab9b954472a00b
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240415.12742
+Version: 240416.04500
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240415.12742_all.ipk
+Filename: luci-i18n-diskman-zh-tw_240416.04500_all.ipk
 Size: 3047
-SHA256sum: 553860a1cc359c27ee8ebecbf58366c100a980e372192449a2b22962323ecc15
+SHA256sum: c40964c2b245ec5780c7dba38aa784731ee43ba439355aba094ba4257a218236
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240415.12742
+Version: 240416.04500
 Depends: libc, luci-app-dockerman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240415.12742_all.ipk
-Size: 6642
-SHA256sum: 5352d84efb9c67edfcb7fd8816210297e65c2818e3010c4efeb1a5f7572c500c
+Filename: luci-i18n-dockerman-zh-cn_240416.04500_all.ipk
+Size: 6644
+SHA256sum: 7b1a0b1a1d4bb60e9901f321cf3d5e4a00c2d8addf370c16bc5fa158d74cb598
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -486,14 +486,14 @@ SHA256sum: eff72a7094ee076b1775c861e194b1dc5d9fe78750443dda059a830462fd7ec1
 Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-mosdns-zh-cn
-Version: git-24.090.46816-49051db
+Version: git-24.106.29027-97867ea
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
 Installed-Size: 4426
-Filename: luci-i18n-mosdns-zh-cn_git-24.090.46816-49051db_all.ipk
-Size: 5239
-SHA256sum: 559013b761025f33fd9f4e5d06e65a3ead2853150312f7ce8dcca01ad70fac15
+Filename: luci-i18n-mosdns-zh-cn_git-24.106.29027-97867ea_all.ipk
+Size: 5240
+SHA256sum: 5463d274dbbe4baff7d771e1896fda0a9553af511c38bca1a75b17d6c13f9543
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall-zh-cn
@@ -600,10 +600,10 @@ Depends: libc, ca-bundle
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 6387199
+Installed-Size: 6387194
 Filename: mosdns_5.3.1-1_x86_64.ipk
-Size: 6372940
-SHA256sum: e2a54d8346145086417f5afb75b66cdce809f2630c0c763ed6f47a53cb837d1f
+Size: 6372929
+SHA256sum: 210ae198bba35621ba71f97d2fbbf96bbb48be18d156aa0469b6133a5455bf98
 Description:  A plug-in DNS forwarder/splitter
 
 Package: openssl-util
@@ -716,34 +716,34 @@ Depends: libc
 License: GPL-3.0
 Section: utils
 Architecture: x86_64
-Installed-Size: 2877338
+Installed-Size: 2877341
 Filename: v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-Size: 2872302
-SHA256sum: 7c28552b45a6a9ce33ff42ceafcb62e408e1baaaaedeb23233ab1dd28daa27cd
+Size: 2872329
+SHA256sum: f88e4b9edc53878584b4c1a0890323298eeb17b2f8123dcd97548f77ec02452e
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-04-15
+Version: 2024-04-16
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
 Installed-Size: 36741
-Filename: v2ray-geoip_2024-04-15_all.ipk
-Size: 35638
-SHA256sum: 917aef1b261b98b93ad44f15ba68df9128a6370ea4fbf5c2aa677e1dd5a45d61
+Filename: v2ray-geoip_2024-04-16_all.ipk
+Size: 35639
+SHA256sum: 8da2d91d7e61a4bc574ec0a39efeea352cbd1dfc6128d892ac229dd509a6f486
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-04-15
+Version: 2024-04-16
 Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 1904211
-Filename: v2ray-geosite_2024-04-15_all.ipk
-Size: 1904716
-SHA256sum: fa7c7889d5328be07450fd31a70cdfa9e557af383ab90f0d63298cb220362a22
+Installed-Size: 1905901
+Filename: v2ray-geosite_2024-04-16_all.ipk
+Size: 1906175
+SHA256sum: c81e7de5c59df2d39875558217d36938d46ee49cf73a4167ff04dbc709d1ab31
 Description:  Geosite List for V2Ray
 
 Package: vlmcsd
@@ -754,8 +754,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 58070
 Filename: vlmcsd_svn1113-1_x86_64.ipk
-Size: 58846
-SHA256sum: 74c52bc3150c583dab19635be019f32613886ab7a278213c3ef3725156b837c0
+Size: 58834
+SHA256sum: 2d5214ac972e849baa46151680e042b56f17d2e442bab3a2d669174de687552c
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
