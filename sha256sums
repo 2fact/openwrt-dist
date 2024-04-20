@@ -1,10 +1,10 @@
-ced730b589b7403f03656ee17409e923126bba454d3c4a0fdba416e12fbe5e1d *openwrt-23.05.3-x86-64-generic-ext4-combined-efi.img.gz
-e20638b4154927bacb26d0113fe8c69236eb97419c3a2aea7888d7a4af57da50 *openwrt-23.05.3-x86-64-generic-ext4-combined.img.gz
+7981e1d965d50f5ee20b557e4c57342cc48aaa2d24f0f68011ef28bdef280117 *openwrt-23.05.3-x86-64-generic-ext4-combined-efi.img.gz
+baa4128ebb8abab3e083b6482b5ff550142932206480ab1eeae4932be1e15a4d *openwrt-23.05.3-x86-64-generic-ext4-combined.img.gz
 8c6a7d6371d4e94e0b25948863857281ae1c50f1d6e1f8bb4aa714f37a2c613e *openwrt-23.05.3-x86-64-generic-ext4-rootfs.img.gz
 0324fd5a691fe8dd58ea289db87ce6b39b3f2f2be6d5eb4d9e8039c0759a59f2 *openwrt-23.05.3-x86-64-generic-kernel.bin
 081ca5d418f82dbf2ca7256ae7bc4b79d6c5966830a622eacec4084cf6ee6ddc *openwrt-23.05.3-x86-64-generic-rootfs.tar.gz
-8f98f9cbb4bc2e2b0ace760f90653b63647f8630887e035032d2b9035b40f990 *openwrt-23.05.3-x86-64-generic-squashfs-combined-efi.img.gz
-786641a8b0b8ed0ef87c329a605f0c2f261edb8c73ef3408f36691f307b6eab9 *openwrt-23.05.3-x86-64-generic-squashfs-combined.img.gz
+7387e51dd85a3e93950498115672d9a040f8601e8acc244bb17395ec3b49b465 *openwrt-23.05.3-x86-64-generic-squashfs-combined-efi.img.gz
+28d2582af5a182a76c27cefd4ff64b32b32cb93dc29fdb90306a5ae199d672ab *openwrt-23.05.3-x86-64-generic-squashfs-combined.img.gz
 6809bf14752beeab10214b06e95cb21fab311ec7cc5c00a7f77df8d3415edf9a *openwrt-23.05.3-x86-64-generic-squashfs-rootfs.img.gz
 6be7118e3cb41dd19b6d1bce907016e04a407bbf025a8fdce5b508a2afbb9a40 *openwrt-23.05.3-x86-64-generic.manifest
-cf62320b8d98f1e23ea0f5805ed4057d261cc7b3ad38efcb4f40901466a12b5d *profiles.json
+1b0d520507b9e35f29e922a065476588a778a294bb56dca4abd6fd57e1b33222 *profiles.json
