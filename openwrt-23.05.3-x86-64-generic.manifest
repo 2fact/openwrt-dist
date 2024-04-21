@@ -217,7 +217,7 @@ mkf2fs - 1.16.0-1
 mount-utils - 2.39-2
 mtd - 26
 mtr-json - 0.95-3
-netifd - 2024-01-04-c18cc79d-1
+netifd - 2024-01-04-c18cc79d-2
 nftables-json - 1.0.8-1
 ntfs-3g - 2022.5.17-1-fuseint
 odhcp6c - 2023-05-12-bcd28363-20
