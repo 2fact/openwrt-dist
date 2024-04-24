@@ -207,7 +207,7 @@ luci-lib-nixio - git-24.034.54875-21210dc
 luci-light - git-23.024.33244-34dee82
 luci-lua-runtime - git-23.233.52805-dae2684
 luci-mod-admin-full - git-19.253.48496-3f93650
-luci-mod-network - git-24.075.44893-ac63bea
+luci-mod-network - git-24.111.76511-ff6b275
 luci-mod-status - git-24.087.58493-9370bdd
 luci-mod-system - git-24.067.01860-7a82b2f
 luci-proto-ipv6 - git-24.086.45108-51aee90
@@ -267,8 +267,8 @@ urandom-seed - 3
 urngd - 2023-11-01-44365eb1-1
 usbutils - 014-1
 usign - 2020-05-23-f1f65026-1
-v2ray-geoip - 202403210039-1
-v2ray-geosite - 20240316051411-1
+v2ray-geoip - 202404110039-1
+v2ray-geosite - 20240410101316-1
 vim-full - 9.0-1
 vim-runtime - 9.0-1
 wget-ssl - 1.21.4-1
