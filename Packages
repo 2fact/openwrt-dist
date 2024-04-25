@@ -293,14 +293,14 @@ SHA256sum: 5526a53e7719820223d6af3051bc0b3ce192313c349aad11c252dba39fef8205
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
-Version: 4.77-3
+Version: 4.77-4
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dns2tcp, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 709801
-Filename: luci-app-passwall_4.77-3_all.ipk
-Size: 710344
-SHA256sum: 94425f03432895f3aec86cc8522d7c87b73256d49eff5c6798486b96d95f42be
+Installed-Size: 711574
+Filename: luci-app-passwall_4.77-4_all.ipk
+Size: 712147
+SHA256sum: ed4969b7ab59f3e798ba25277fb8335e2d96a091d6b03d660010a8f138f0c01e
 Description:  LuCI support for PassWall
 
 Package: luci-app-redsocks2
@@ -381,10 +381,10 @@ Depends: libc, luci-app-xray, wget
 License: MPLv2
 Section: Custom
 Architecture: all
-Installed-Size: 3347
+Installed-Size: 3346
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
-Size: 4119
-SHA256sum: 99d9560088007ddd54dc045c3fb6f8ab4eab05acbd9f7e9e8dd3e6c13901b60f
+Size: 4115
+SHA256sum: 34cf79d6447061f3a02c3b9a84424daf7d493b703ed6016d529de821d073fa7f
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -393,10 +393,10 @@ Depends: libc, firewall4, kmod-nft-tproxy, luci-base, xray-core, dnsmasq, ca-bun
 License: MPLv2
 Section: Custom
 Architecture: all
-Installed-Size: 30671
+Installed-Size: 30668
 Filename: luci-app-xray_3.4.1-1_all.ipk
-Size: 31624
-SHA256sum: 1796b2bc745e5aea1bc41e9d0c0c4a936193041d8825eac4917dd6f0c18ea62f
+Size: 31622
+SHA256sum: 70ced748e38eb7a4a94d70bff7e0d7aa12b7b9766ceab0bad4c03cd253674056
 Description:  LuCI Support for Xray (Client-side Rendered).
 
 Package: luci-i18n-alist-zh-cn
@@ -411,51 +411,51 @@ SHA256sum: bb485257ee8fef184fb1d8407197cb2d00574b85fa49aa6f4e4ab2f8661278a0
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240424.08245
+Version: 240425.04829
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240424.08245_all.ipk
+Filename: luci-i18n-diskman-pl_240425.04829_all.ipk
 Size: 3025
-SHA256sum: 100da799f37a7ac752a083b937029d5f1c8a1e602b0e5f67cb24d7443efaf612
+SHA256sum: 383bafa25e2e3ab33889cd7941bd0ad7acb9f1fe01472aaa99059ae52f3dd3c8
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240424.08245
+Version: 240425.04829
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240424.08245_all.ipk
-Size: 3044
-SHA256sum: 0a01e6a0d070ab961c425afe84bfe23608749b912ab0f1842eac021f7e06e0dd
+Filename: luci-i18n-diskman-zh-cn_240425.04829_all.ipk
+Size: 3042
+SHA256sum: d4a489a39da66c2af49f8acbd827f1a7eeb54e14c7b610e74cdd34e7bab21aab
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240424.08245
+Version: 240425.04829
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240424.08245_all.ipk
-Size: 3047
-SHA256sum: 5b0b98bbc24d073f3ff2c9445ec76447b923835c000a90953698ca122205651f
+Filename: luci-i18n-diskman-zh-tw_240425.04829_all.ipk
+Size: 3050
+SHA256sum: 17dd80defe9e35cf1932ff3ce8dcdd707648d537753d3c4176fc111fcdf4ea51
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240424.08244
+Version: 240425.04829
 Depends: libc, luci-app-dockerman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240424.08244_all.ipk
+Filename: luci-i18n-dockerman-zh-cn_240425.04829_all.ipk
 Size: 6646
-SHA256sum: 42db80bf2667945c8aca994f4035b9c1f3068d72d430e9d98f51f6977d914b91
+SHA256sum: 2caa4d226a460686cda6d2fbc2e5a14efc3dbd3361183cd81beb2dbf88486e26
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -485,10 +485,10 @@ Version: unknown
 Depends: libc, luci-app-passwall
 Section: luci
 Architecture: all
-Installed-Size: 15093
+Installed-Size: 15079
 Filename: luci-i18n-passwall-zh-cn_unknown_all.ipk
-Size: 15867
-SHA256sum: 8b22b2c119ed750606b0e378358c0955f071213b985ab3afa7fa2b56647a4907
+Size: 15871
+SHA256sum: bddbc7d7e284f602b9e1f60e4b1d553d0bb03ee76250ffd2f3a776e0908a23d6
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -707,27 +707,27 @@ SHA256sum: 103bdbf8d1e8e35961034e4019865a9e39c546d34b73bbf13b0dbf8fc5e58894
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-04-24
+Version: 2024-04-25
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 36775
-Filename: v2ray-geoip_2024-04-24_all.ipk
-Size: 35704
-SHA256sum: 70c8ed3f9888bdb599e6c5795ac0ba5503f5cc013b9ee8f8c9de65e0a3db8d1b
+Installed-Size: 36839
+Filename: v2ray-geoip_2024-04-25_all.ipk
+Size: 35791
+SHA256sum: ae140052794cf70474d6a1192da59a6be3c65a835f50bddc712506480edef770
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-04-24
+Version: 2024-04-25
 Depends: libc
 License: MIT
 Section: net
 Architecture: all
-Installed-Size: 1914069
-Filename: v2ray-geosite_2024-04-24_all.ipk
-Size: 1914630
-SHA256sum: 93751601803dd5f1bfef96b26888828ea12f610ece91496a612c2d458bf257cd
+Installed-Size: 1914466
+Filename: v2ray-geosite_2024-04-25_all.ipk
+Size: 1915349
+SHA256sum: cb463ca1ec947f21d9c985892757485ff4b78a6852a80e2c765518ae500823ba
 Description:  Geosite List for V2Ray
 
 Package: vlmcsd
@@ -736,10 +736,10 @@ Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 60635
+Installed-Size: 60636
 Filename: vlmcsd_svn1113-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 61304
-SHA256sum: 4461d3367a289a052c14aa0918e2f4337c02b002da5621f9b2b080477c9ef17a
+Size: 61270
+SHA256sum: f8ad774355cdc5e961c2915c42edf48ed0997bd622a2c146a76385f7e11bca34
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
