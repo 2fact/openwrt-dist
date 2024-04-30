@@ -100,7 +100,7 @@ SHA256sum: 3a7e83c94ad4feaeb862a4eb9ec6381a10127363279f5808e9bac3c411e9d48b
 Description:  utility to convert dns query from udp to tcp
 
 Package: hysteria
-Version: 2.4.2-1
+Version: 2.4.3-1
 Depends: libc, ca-bundle
 Source: package/hysteria
 SourceName: hysteria
@@ -109,10 +109,10 @@ Section: net
 SourceDateEpoch: 1711145382
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
-Installed-Size: 6203849
-Filename: hysteria_2.4.2-1_x86_64.ipk
-Size: 6190739
-SHA256sum: e921c7d4877728fdbf62b36e8dae79243aca972c869a21898512e27ad1857237
+Installed-Size: 6203814
+Filename: hysteria_2.4.3-1_x86_64.ipk
+Size: 6190568
+SHA256sum: 5162fd85d7f43f9d1eba33b620c33828d66f541499cb3a858a7745207ac6ec68
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
@@ -539,10 +539,10 @@ Section: Custom
 SourceDateEpoch: 1713945514
 Maintainer: yichya <mail@yichya.dev>
 Architecture: all
-Installed-Size: 3346
+Installed-Size: 3347
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
-Size: 4123
-SHA256sum: 511c825175d8f62cca9032d1497ea5e48633495d01153575a7390f1e81c5d0b7
+Size: 4115
+SHA256sum: 93f8449e050f0dc431a26222265c570d6f198a6c17ebb0c58cd19ac9c8778330
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -577,7 +577,7 @@ SHA256sum: bb485257ee8fef184fb1d8407197cb2d00574b85fa49aa6f4e4ab2f8661278a0
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240429.04687
+Version: 240430.04761
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-pl
@@ -587,13 +587,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240429.04687_all.ipk
-Size: 3030
-SHA256sum: 854a468d20a2e031ca493b5550f9e246cc43f6118466eb8b4e8e35a7f4a4e8e0
+Filename: luci-i18n-diskman-pl_240430.04761_all.ipk
+Size: 3026
+SHA256sum: 2d6c21d604365313c070fa392bfe648f6ef740e4cbf826ffdc5bac60888016a9
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240429.04687
+Version: 240430.04761
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-cn
@@ -603,13 +603,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240429.04687_all.ipk
-Size: 3045
-SHA256sum: d206bda8407f7b864f154b172bdd76d814e255ec048a9ce3eefd00e0c2164846
+Filename: luci-i18n-diskman-zh-cn_240430.04761_all.ipk
+Size: 3044
+SHA256sum: 05bbd6ad0cb9759d981624f224c9eafe7d307596ce3afe1fc2de4d00a5b5113d
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240429.04687
+Version: 240430.04761
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-tw
@@ -619,13 +619,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240429.04687_all.ipk
+Filename: luci-i18n-diskman-zh-tw_240430.04761_all.ipk
 Size: 3052
-SHA256sum: eeaee4fc9b4c6559ffa6b5dceddec3291cf1d4c0f10f1b4450500cd8a0e2700e
+SHA256sum: a86a26b926b75946c179f82d04f7ccd3dc08179ab673bca9b4e67b1391fc6b52
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240429.04686
+Version: 240430.04761
 Depends: libc, luci-app-dockerman
 Source: package/luci-app-dockerman
 SourceName: luci-i18n-dockerman-zh-cn
@@ -635,9 +635,9 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <lisaac.cn@gmail.com> Florian Eckert <fe@dev.tdt.de>
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240429.04686_all.ipk
-Size: 6646
-SHA256sum: 692ad239ba3e3f8d0699e08e2e3d8cd5e82e53dcb5a660b6c3282712a47a3945
+Filename: luci-i18n-dockerman-zh-cn_240430.04761_all.ipk
+Size: 6645
+SHA256sum: 686d56f8d19661506209409c6f3c01d88b1bbeaac2b1b5a82fc8f4f666da5c64
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -971,7 +971,7 @@ SHA256sum: f88e4b9edc53878584b4c1a0890323298eeb17b2f8123dcd97548f77ec02452e
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-04-29
+Version: 2024-04-30
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -982,13 +982,13 @@ SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 36839
-Filename: v2ray-geoip_2024-04-29_all.ipk
+Filename: v2ray-geoip_2024-04-30_all.ipk
 Size: 35792
-SHA256sum: e89a92691bcdb8ae419d18d31ac1ae6262386ba73509a76a317ae1dbfbb26a3e
+SHA256sum: 68e6f946b9321601a69290cf526a5c308b47eed38e87a3310bc51d601ee5dd7b
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-04-29
+Version: 2024-04-30
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -998,10 +998,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1915025
-Filename: v2ray-geosite_2024-04-29_all.ipk
-Size: 1915665
-SHA256sum: b18ce2e1ea2647d0c34477d0c082ae72439c7e3721c29d9024995c698f1f6253
+Installed-Size: 1921122
+Filename: v2ray-geosite_2024-04-30_all.ipk
+Size: 1921676
+SHA256sum: 06082221eb60ada92e5f874fb03b0fc3c89b949f5c541c2efb18a9d94116df18
 Description:  Geosite List for V2Ray
 
 Package: vlmcsd
@@ -1015,10 +1015,10 @@ Section: net
 SourceDateEpoch: 1586253442
 Maintainer: HotBird64
 Architecture: x86_64
-Installed-Size: 58070
+Installed-Size: 58069
 Filename: vlmcsd_svn1113-1_x86_64.ipk
-Size: 58816
-SHA256sum: 9259f1850b7052fe6011501f1f08239678ef5789b7a8a2572b0f377b3fb583c0
+Size: 58661
+SHA256sum: 17ce3902806da23dfb7789fb5ea083069fac8ddd280e87b7dbcefc93c0a3fc72
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
