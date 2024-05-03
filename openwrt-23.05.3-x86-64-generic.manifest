@@ -150,7 +150,7 @@ libiwinfo20230701 - 2023-07-01-ca79f641-1
 libjson-c5 - 0.16-3
 libjson-script20230523 - 2023-05-23-75a3b870-1
 libltdl7 - 2.4.7-1
-liblua5.1.5 - 5.1.5-10
+liblua5.1.5 - 5.1.5-11
 liblucihttp-lua - 2023-03-15-9b5b683f-1
 liblucihttp-ucode - 2023-03-15-9b5b683f-1
 liblucihttp0 - 2023-03-15-9b5b683f-1
@@ -192,7 +192,7 @@ libuuid1 - 2.39-2
 libuv1 - 1.48.0-1
 logd - 2022-08-13-4c7b720b-2
 lsblk - 2.39-2
-lua - 5.1.5-10
+lua - 5.1.5-11
 luci - git-23.051.66410-a505bb1
 luci-app-firewall - git-24.067.01746-69867db
 luci-app-opkg - git-24.043.63812-c89a68b
