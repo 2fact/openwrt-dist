@@ -234,7 +234,7 @@ luci-app-openclash - 0.46.003-beta
 luci-app-opkg - git-24.043.63812-c89a68b
 luci-app-samba4 - git-23.142.65904-c0478f0
 luci-app-shadowsocks - 2.1.1-1
-luci-app-smartdns - 1.2023.43
+luci-app-smartdns - 1.2024.45
 luci-app-statistics - git-24.034.36441-feee897
 luci-base - git-24.086.45142-09d5a38
 luci-light - git-23.024.33244-34dee82
@@ -286,7 +286,7 @@ ruby-yaml - 3.2.2-2
 samba4-libs - 4.18.8-1
 samba4-server - 4.18.8-1
 shadowsocks-libev - 3.3.5-1
-sing-box - 1.8.12-1
+sing-box - 1.8.13-1
 smartdns - 1.2024.45-1
 ss - 6.3.0-1
 stubby - 0.4.3-1
