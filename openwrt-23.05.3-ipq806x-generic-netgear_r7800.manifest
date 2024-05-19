@@ -230,7 +230,7 @@ lsblk - 2.39-2
 luci - git-23.051.66410-a505bb1
 luci-app-dns-forwarder - 1.6.3-1
 luci-app-firewall - git-24.067.01746-69867db
-luci-app-openclash - 0.46.003-beta
+luci-app-openclash - 0.46.011-beta
 luci-app-opkg - git-24.043.63812-c89a68b
 luci-app-samba4 - git-23.142.65904-c0478f0
 luci-app-shadowsocks - 2.1.1-1
