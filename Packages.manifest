@@ -16,19 +16,19 @@ SHA256sum: e78eaf895fbe5edfa152f45c00aa51a9e4535855ec65a9c93d214d653f1f4874
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: alist
-Version: 3.34.0-6
+Version: 3.35.0-7
 Depends: libc, ca-bundle
 Source: package/alist/alist
 SourceName: alist
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1714668014
+SourceDateEpoch: 1716560700
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 24598053
-Filename: alist_3.34.0-6_arm_cortex-a15_neon-vfpv4.ipk
-Size: 24535399
-SHA256sum: 23fe3b4ac0e4783a7d3d4adee5abeb034f18e686ca2052940c99434477960161
+Installed-Size: 24729391
+Filename: alist_3.35.0-7_arm_cortex-a15_neon-vfpv4.ipk
+Size: 24665988
+SHA256sum: 1cea9d12614e2263c5d781fbde44a26c5214a83fdf30381c3569f961295a0849
 Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
 
 Package: chinadns-ng
@@ -83,7 +83,7 @@ Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
 
 Package: dns2tcp
-Version: 1.1.0-240322.79782
+Version: 1.1.1-2
 Depends: libc
 Source: package/dns2tcp
 SourceName: dns2tcp
@@ -93,10 +93,10 @@ Section: net
 SourceDateEpoch: 1711145382
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 11274
-Filename: dns2tcp_1.1.0-240322.79782_arm_cortex-a15_neon-vfpv4.ipk
-Size: 12083
-SHA256sum: 0aa03318c77216a4f91e3258c9cbe63e0fd4bc18d70c131b2af8e5992076e4b1
+Installed-Size: 9602
+Filename: dns2tcp_1.1.1-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 10383
+SHA256sum: 3584f85902786d50e9bdb8e7cc8946fe8f1b290f92dd1dcaf5cd5af95f73c80d
 Description:  utility to convert dns query from udp to tcp
 
 Package: hysteria
@@ -256,13 +256,13 @@ Depends: libc, alist, luci-compat, luci-lua-runtime
 Source: package/alist/luci-app-alist
 SourceName: luci-app-alist
 Section: luci
-SourceDateEpoch: 1714668014
+SourceDateEpoch: 1716560700
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3592
+Installed-Size: 3593
 Filename: luci-app-alist_1.0.13_all.ipk
-Size: 4366
-SHA256sum: 23bab3c68a81583ea331cc8f38c4282c391c1b0e1e29107d311e4da39d061ca8
+Size: 4376
+SHA256sum: 69f3a526983b1328af08a538a6af1964ae7bbe3ab7b46505efc1fa29ecff2f3f
 Description:  LuCI support for alist
 
 Package: luci-app-chinadns
@@ -397,13 +397,13 @@ Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, 
 Source: package/luci-app-passwall
 SourceName: luci-app-passwall
 Section: luci
-SourceDateEpoch: 1716392309
+SourceDateEpoch: 1716459528
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 712719
+Installed-Size: 712713
 Filename: luci-app-passwall_4.77-5_all.ipk
-Size: 713133
-SHA256sum: 481c4dfe87c35a37af27081cde3064d91e3dcf220e331a14ee2c54e212b70803
+Size: 713223
+SHA256sum: e9981467055bdaee9626bb063091a143d2e98d1deecafd5e43295d42419c1d97
 Description:  LuCI support for PassWall
 
 Package: luci-app-redsocks2
@@ -518,10 +518,10 @@ Section: Custom
 SourceDateEpoch: 1713945514
 Maintainer: yichya <mail@yichya.dev>
 Architecture: all
-Installed-Size: 3345
+Installed-Size: 3346
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
-Size: 4119
-SHA256sum: cde269614b65f4fd878e7db2c48146491992476ad5b6b1d60d0ffd94197461ef
+Size: 4120
+SHA256sum: 1aef05974a7cc2f1eee18e3d5b292b1c38a5d1413b7e356f14814cd46422cbc0
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -542,21 +542,21 @@ SHA256sum: 70ced748e38eb7a4a94d70bff7e0d7aa12b7b9766ceab0bad4c03cd253674056
 Description:  LuCI Support for Xray (Client-side Rendered).
 
 Package: luci-i18n-alist-zh-cn
-Version: git-24.123.60014-81aad71
+Version: git-24.145.51900-18867f0
 Depends: libc, luci-app-alist
 Source: package/alist/luci-app-alist
 SourceName: luci-i18n-alist-zh-cn
 Section: luci
-SourceDateEpoch: 1714668014
+SourceDateEpoch: 1716560700
 Architecture: all
-Installed-Size: 1531
-Filename: luci-i18n-alist-zh-cn_git-24.123.60014-81aad71_all.ipk
-Size: 2361
-SHA256sum: ca4657ca61bcf911b78ae6f59130038a3d0c21d84d297175ad311c8dc54efbe0
+Installed-Size: 1530
+Filename: luci-i18n-alist-zh-cn_git-24.145.51900-18867f0_all.ipk
+Size: 2372
+SHA256sum: df30d2e965030894780757813c41f40929c1f8a045536c565e432dea0783f22d
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240523.04914
+Version: 240525.04879
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-pl
@@ -566,13 +566,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240523.04914_all.ipk
-Size: 3026
-SHA256sum: 8a3df064f1c7307f1d6b75b86990b5738497afe24f72a7dbc3cee7b50a86295e
+Filename: luci-i18n-diskman-pl_240525.04879_all.ipk
+Size: 3027
+SHA256sum: 2cfcef965eebdf53c5bdb1be46f9d71c5965fd65c86478000702ea7ba85724f1
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240523.04914
+Version: 240525.04879
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-cn
@@ -582,13 +582,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240523.04914_all.ipk
-Size: 3044
-SHA256sum: 7e90ad9bc35f067a1a1c20181822bbb7e6262703450b4f7a0f24d5fa98e45a41
+Filename: luci-i18n-diskman-zh-cn_240525.04879_all.ipk
+Size: 3045
+SHA256sum: 6f7a1f7dc6eaafee4829ab26f5752e7626f65ad2763fa78f09770752f9620114
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240523.04914
+Version: 240525.04879
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-tw
@@ -598,13 +598,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240523.04914_all.ipk
-Size: 3047
-SHA256sum: 6fb4c4a7135349ddb980ec4c030bdd8734af9214303e9d9b61591dc3f1a0260b
+Filename: luci-i18n-diskman-zh-tw_240525.04879_all.ipk
+Size: 3049
+SHA256sum: c0bbe7fd184948b6290eb3a218d629fad95c2b4962c7ab229cc99415954859af
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240523.04914
+Version: 240525.04879
 Depends: libc, luci-app-dockerman
 Source: package/luci-app-dockerman
 SourceName: luci-i18n-dockerman-zh-cn
@@ -614,9 +614,9 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <lisaac.cn@gmail.com> Florian Eckert <fe@dev.tdt.de>
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240523.04914_all.ipk
+Filename: luci-i18n-dockerman-zh-cn_240525.04879_all.ipk
 Size: 6644
-SHA256sum: af0ea962e613236fd93ea8db723bcf92a870f89a39c90ad141ba858126f7f3d4
+SHA256sum: b62816db3ab9ebc9bef244d81bc7a55621c96e524a04dc9dc829fa96c62db30f
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -653,12 +653,12 @@ Depends: libc, luci-app-passwall
 Source: package/luci-app-passwall
 SourceName: luci-i18n-passwall-zh-cn
 Section: luci
-SourceDateEpoch: 1716392309
+SourceDateEpoch: 1716459528
 Architecture: all
-Installed-Size: 15156
+Installed-Size: 15155
 Filename: luci-i18n-passwall-zh-cn_unknown_all.ipk
 Size: 15929
-SHA256sum: 459302ba8f538718e6080d18b93d81f762e6b0299f47f23b68dd1a9ea222825a
+SHA256sum: 304ba38501d91a1842af901c317dc14837f88a80a6299ad418d1a584f4aca5f0
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -950,7 +950,7 @@ SHA256sum: 103bdbf8d1e8e35961034e4019865a9e39c546d34b73bbf13b0dbf8fc5e58894
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2024-05-23
+Version: 2024-05-25
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -961,13 +961,13 @@ SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
 Installed-Size: 35212
-Filename: v2ray-geoip_2024-05-23_all.ipk
+Filename: v2ray-geoip_2024-05-25_all.ipk
 Size: 35037
-SHA256sum: 5ad0790d0d88ec80dc1d5b198c198c30ac4f5291bf193690658d33e7ddfb3f99
+SHA256sum: 0d10ea67d9c0828e478dee2d984d25e842a8684df5d0b1a75c68bf1a7e3f6686
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2024-05-23
+Version: 2024-05-25
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -977,10 +977,10 @@ Section: net
 SourceDateEpoch: 1692929426
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: all
-Installed-Size: 1947573
-Filename: v2ray-geosite_2024-05-23_all.ipk
-Size: 1948260
-SHA256sum: 8f2f900d4b33ab2624bc9d0d86365512e2aec8c2124eab0e63647043dff04ea0
+Installed-Size: 1945327
+Filename: v2ray-geosite_2024-05-25_all.ipk
+Size: 1946086
+SHA256sum: f9b5d0a1c4192b9b0fc3705e6f85c3f70d5acb5f5e814a429d57dd11dbc9b535
 Description:  Geosite List for V2Ray
 
 Package: vlmcsd
@@ -994,10 +994,10 @@ Section: net
 SourceDateEpoch: 1586253442
 Maintainer: HotBird64
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 60637
+Installed-Size: 60636
 Filename: vlmcsd_svn1113-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 61309
-SHA256sum: 0682e208447833a2afe4851cb2cf7e020816205d0bef847be3b17dbb4eb51e8d
+Size: 61304
+SHA256sum: 1c57a3278df1b5d9ac5229d7bdea0964ed964484a7f92c73400cc74e0175a816
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
