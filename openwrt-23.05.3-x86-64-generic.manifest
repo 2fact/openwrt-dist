@@ -195,7 +195,7 @@ lsblk - 2.39-2
 lua - 5.1.5-11
 luci - git-23.051.66410-a505bb1
 luci-app-firewall - git-24.067.01746-69867db
-luci-app-opkg - git-24.043.63812-c89a68b
+luci-app-opkg - git-24.148.43905-2891ca4
 luci-app-samba4 - git-23.142.65904-c0478f0
 luci-app-statistics - git-24.034.36441-feee897
 luci-base - git-24.086.45142-09d5a38
