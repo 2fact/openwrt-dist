@@ -267,10 +267,10 @@ urandom-seed - 3
 urngd - 2023-11-01-44365eb1-1
 usbutils - 014-1
 usign - 2020-05-23-f1f65026-1
-v2ray-geoip - 20240606012731-1
-v2ray-geosite - 20240606012731-1
+v2ray-geoip - 20240607012958-1
+v2ray-geosite - 20240607012958-1
 vim-full - 9.0-1
 vim-runtime - 9.0-1
 wget-ssl - 1.21.4-1
-xray-core - 1.8.11-1
+xray-core - 1.8.13-1
 zlib - 1.2.13-1
