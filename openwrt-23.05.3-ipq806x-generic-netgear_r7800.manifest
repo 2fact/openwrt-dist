@@ -41,7 +41,7 @@ hdparm - 9.65-1
 hostapd-common - 2023-09-08-e5ccbfc6-6
 htop - 3.3.0-1
 ip-full - 6.3.0-1
-iperf3 - 3.16-1
+iperf3 - 3.17.1-2
 ipset - 7.17-1
 iptables-zz-legacy - 1.8.8-2
 iw - 5.19-1
@@ -174,7 +174,7 @@ libgmp10 - 6.2.1-1
 libgnutls - 3.8.3-1
 libip4tc2 - 1.8.8-2
 libip6tc2 - 1.8.8-2
-libiperf3 - 3.16-1
+libiperf3 - 3.17.1-2
 libipset13 - 7.17-1
 libiptext0 - 1.8.8-2
 libiptext6-0 - 1.8.8-2
@@ -230,7 +230,7 @@ lsblk - 2.39-2
 luci - git-23.051.66410-a505bb1
 luci-app-dns-forwarder - 1.6.3-1
 luci-app-firewall - git-24.067.01746-69867db
-luci-app-openclash - 0.46.011-beta
+luci-app-openclash - 0.46.014-beta
 luci-app-opkg - git-24.148.43905-2891ca4
 luci-app-samba4 - git-23.142.65904-c0478f0
 luci-app-shadowsocks - 2.1.1-1
@@ -317,8 +317,8 @@ urandom-seed - 3
 urngd - 2023-11-01-44365eb1-1
 usbutils - 014-1
 usign - 2020-05-23-f1f65026-1
-v2ray-geoip - 20240610013555-1
-v2ray-geosite - 20240610013555-1
+v2ray-geoip - 20240611013330-1
+v2ray-geosite - 20240611013330-1
 vim-full - 9.0-1
 vim-runtime - 9.0-1
 wget-ssl - 1.21.4-1
