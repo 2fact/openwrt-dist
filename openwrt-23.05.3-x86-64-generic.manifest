@@ -38,7 +38,7 @@ grub2-bios-setup - 2.06-5
 hdparm - 9.65-1
 htop - 3.3.0-1
 ip-full - 6.3.0-1
-iperf3 - 3.16-1
+iperf3 - 3.17.1-2
 jansson4 - 2.14-3
 jshn - 2023-05-23-75a3b870-1
 jsonfilter - 2024-01-23-594cfa86-1
@@ -144,7 +144,7 @@ libfido2-1 - 1.12.0-1
 libgcc1 - 12.3.0-4
 libgmp10 - 6.2.1-1
 libgnutls - 3.8.3-1
-libiperf3 - 3.16-1
+libiperf3 - 3.17.1-2
 libiwinfo-data - 2023-07-01-ca79f641-1
 libiwinfo20230701 - 2023-07-01-ca79f641-1
 libjson-c5 - 0.16-3
@@ -267,8 +267,8 @@ urandom-seed - 3
 urngd - 2023-11-01-44365eb1-1
 usbutils - 014-1
 usign - 2020-05-23-f1f65026-1
-v2ray-geoip - 20240610013343-1
-v2ray-geosite - 20240610013343-1
+v2ray-geoip - 20240611013400-1
+v2ray-geosite - 20240611013400-1
 vim-full - 9.0-1
 vim-runtime - 9.0-1
 wget-ssl - 1.21.4-1
