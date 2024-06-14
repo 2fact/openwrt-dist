@@ -25,10 +25,10 @@ Section: net
 SourceDateEpoch: 1717970696
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: x86_64
-Installed-Size: 26662195
+Installed-Size: 26662196
 Filename: alist_3.35.0-8_x86_64.ipk
-Size: 26552770
-SHA256sum: 77923ec72bcb2ff512c8f10afb4788bcd1048ad32706c706d4296cb7200e804e
+Size: 26552922
+SHA256sum: 71529a0562a03a51790380603330ef885026a87af3bb7546758cb98d793fa779
 Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
 
 Package: chinadns-ng
@@ -539,10 +539,10 @@ Section: Custom
 SourceDateEpoch: 1717324974
 Maintainer: yichya <mail@yichya.dev>
 Architecture: all
-Installed-Size: 3346
+Installed-Size: 3347
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
-Size: 4116
-SHA256sum: 929efc6d75ca1cf14cbb46f5dc8af6b59760de8ebb881b1c5f920272a61e4dd4
+Size: 4117
+SHA256sum: 0a85a9ffe68002402e15dc379633474a484a0622606b01d4c7011ffd131f243b
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -577,7 +577,7 @@ SHA256sum: 3c626b8fff65f9184d0e172727de26efe6b78a684d7f582091831bcb0ee28024
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240613.04994
+Version: 240614.05039
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-pl
@@ -587,13 +587,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240613.04994_all.ipk
-Size: 3026
-SHA256sum: 4b03ff45cf66224e5d50a9e2ebb0571fccf6771ff5517a176080bf472ef79f65
+Filename: luci-i18n-diskman-pl_240614.05039_all.ipk
+Size: 3023
+SHA256sum: 1f330a14044405ab2ccae18aa1f87388875b99be73b9c940f5af7b075aa433d7
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240613.04994
+Version: 240614.05039
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-cn
@@ -603,13 +603,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240613.04994_all.ipk
-Size: 3044
-SHA256sum: 4b5aed9867e69bfded3aed37bfa797511389a23a3800ecba9cba33f8bea3575b
+Filename: luci-i18n-diskman-zh-cn_240614.05039_all.ipk
+Size: 3047
+SHA256sum: 1f0765e8090b489d8faa17524cb543a6535df1d6565093a8079c5effd4cae55e
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240613.04994
+Version: 240614.05039
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-tw
@@ -619,13 +619,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240613.04994_all.ipk
+Filename: luci-i18n-diskman-zh-tw_240614.05039_all.ipk
 Size: 3053
-SHA256sum: 325015b06e1533173e290a7df3bb75000e503d033a95ba6e8e2cc672ee56e9cd
+SHA256sum: e04c2c7849e7635b9b8e141f023ffa6dae573abf429eecee9a5f98d5a1e4938b
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240613.04994
+Version: 240614.05039
 Depends: libc, luci-app-dockerman
 Source: package/luci-app-dockerman
 SourceName: luci-i18n-dockerman-zh-cn
@@ -635,9 +635,9 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <lisaac.cn@gmail.com> Florian Eckert <fe@dev.tdt.de>
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240613.04994_all.ipk
-Size: 6642
-SHA256sum: 6b98b7bdaabaea009e79f161921f00dadf5085828038ca732bccb8a42f4dedbd
+Filename: luci-i18n-dockerman-zh-cn_240614.05039_all.ipk
+Size: 6644
+SHA256sum: c21d40ed87e7f20378c88a55daa4672cb3e6330fa801e098582b91b183d628e2
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -971,7 +971,7 @@ SHA256sum: c4048d56dc28c26f191de32912ef760cb00f2577c418ce8499497c4608151893
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240613012929-1
+Version: 20240614012933-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -982,13 +982,13 @@ SourceDateEpoch: 1717423378
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 35184
-Filename: v2ray-geoip_20240613012929-1_all.ipk
-Size: 35056
-SHA256sum: a6280aa9c5930e3131e568942ddf7294a5ef0a8a8a142ad513670da49e4c6b70
+Filename: v2ray-geoip_20240614012933-1_all.ipk
+Size: 35052
+SHA256sum: d175858b1c869c377c7df514040cb8bbe7a740c767fc59275e24713659adefe6
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240613012929-1
+Version: 20240614012933-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -998,10 +998,10 @@ Section: net
 SourceDateEpoch: 1717423378
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 1944467
-Filename: v2ray-geosite_20240613012929-1_all.ipk
-Size: 1945168
-SHA256sum: f62afd69ec2f8f06d96bd034832a69d73308688d8f10f7be56aa2efaaddac6f8
+Installed-Size: 1944038
+Filename: v2ray-geosite_20240614012933-1_all.ipk
+Size: 1944613
+SHA256sum: 59248c38b5d23e9b0b72e98c23cf3be6d646df2967a5184e2b32c1970b29fe24
 Description:  Geosite List for V2Ray
 
 Package: vlmcsd
@@ -1017,8 +1017,8 @@ Maintainer: HotBird64
 Architecture: x86_64
 Installed-Size: 58070
 Filename: vlmcsd_svn1113-1_x86_64.ipk
-Size: 58830
-SHA256sum: 04cb62d36acf1fbebf0a8ff011966c44b854443222fc6642577bd545e64713ab
+Size: 58826
+SHA256sum: b8cfb0d150e1b8d4d79899eaeb83c97696d089dc292bc6b5302b6ba70a29b7d2
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
