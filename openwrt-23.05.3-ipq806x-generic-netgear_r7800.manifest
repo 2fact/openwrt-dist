@@ -38,7 +38,7 @@ fwtool - 2019-11-12-8f7fe925-1
 getdns - 1.7.3-2
 getrandom - 2022-08-13-4c7b720b-2
 hdparm - 9.65-1
-hostapd-common - 2023-09-08-e5ccbfc6-6
+hostapd-common - 2023-09-08-e5ccbfc6-7
 htop - 3.3.0-1
 ip-full - 6.3.0-1
 iperf3 - 3.17.1-2
@@ -317,14 +317,14 @@ urandom-seed - 3
 urngd - 2023-11-01-44365eb1-1
 usbutils - 014-1
 usign - 2020-05-23-f1f65026-1
-v2ray-geoip - 20240701014522-1
-v2ray-geosite - 20240701014522-1
+v2ray-geoip - 20240702012950-1
+v2ray-geosite - 20240702012950-1
 vim-full - 9.0-1
 vim-runtime - 9.0-1
 wget-ssl - 1.21.4-1
 wireguard-tools - 1.0.20210914-2
 wireless-regdb - 2024.05.08-1
-wpad-mbedtls - 2023-09-08-e5ccbfc6-6
+wpad-mbedtls - 2023-09-08-e5ccbfc6-7
 xray-core - 1.8.16-1
 xtables-legacy - 1.8.8-2
 zlib - 1.2.13-1
