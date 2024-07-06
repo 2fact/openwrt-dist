@@ -222,9 +222,9 @@ nftables-json - 1.0.8-1
 ntfs-3g - 2022.5.17-1-fuseint
 odhcp6c - 2023-05-12-bcd28363-20
 odhcpd-ipv6only - 2023-10-24-d8118f6e-1
-openssh-keygen - 9.7p1-1
-openssh-server - 9.7p1-1
-openssh-sftp-server - 9.7p1-1
+openssh-keygen - 9.8p1-1
+openssh-server - 9.8p1-1
+openssh-sftp-server - 9.8p1-1
 openwrt-keyring - 2022-03-25-62471e69-2
 opkg - 2022-02-24-d038e5b6-2
 partx-utils - 2.39-2
@@ -267,8 +267,8 @@ urandom-seed - 3
 urngd - 2023-11-01-44365eb1-1
 usbutils - 014-1
 usign - 2020-05-23-f1f65026-1
-v2ray-geoip - 20240705013107-1
-v2ray-geosite - 20240705013107-1
+v2ray-geoip - 20240706012826-1
+v2ray-geosite - 20240706012826-1
 vim-full - 9.0-1
 vim-runtime - 9.0-1
 wget-ssl - 1.21.4-1
