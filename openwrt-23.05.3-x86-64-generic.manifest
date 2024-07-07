@@ -164,7 +164,7 @@ libnfnetlink0 - 1.0.2-1
 libnftnl11 - 1.2.6-1
 libnghttp2-14 - 1.57.0-1
 libnl-tiny1 - 2023-07-27-bc92a280-1
-libopenssl3 - 3.0.13-1
+libopenssl3 - 3.0.14-2
 liboping - 1.10.0-3
 libpam - 1.5.2-1
 libpcap1 - 1.10.4-1
@@ -267,8 +267,8 @@ urandom-seed - 3
 urngd - 2023-11-01-44365eb1-1
 usbutils - 014-1
 usign - 2020-05-23-f1f65026-1
-v2ray-geoip - 20240706012826-1
-v2ray-geosite - 20240706012826-1
+v2ray-geoip - 20240707014238-1
+v2ray-geosite - 20240707014238-1
 vim-full - 9.0-1
 vim-runtime - 9.0-1
 wget-ssl - 1.21.4-1
