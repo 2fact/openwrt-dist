@@ -16,10 +16,10 @@ Depends: libc, ca-bundle
 License: GPL-3.0
 Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 24770979
+Installed-Size: 24770996
 Filename: alist_3.35.0-8_arm_cortex-a15_neon-vfpv4.ipk
-Size: 24707286
-SHA256sum: 096ca3603bd29021e4511439da5686474743132fe288d5acd8e29100770a1dc5
+Size: 24707152
+SHA256sum: bcba66f188da4f0014e574ccf9bdaa5e1e441ffe3c97776b78dd25b3895c2013
 Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
 
 Package: chinadns-ng
@@ -104,16 +104,16 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  This package contains the mbedtls library.
 
 Package: libopenssl-afalg
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 5454
-Filename: libopenssl-afalg_3.0.13-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 6662
-SHA256sum: 523fe204501c798cd3c24564da3a282a60ce93ceddfd8da2324007653aabd398
+Installed-Size: 5466
+Filename: libopenssl-afalg_3.0.14-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6682
+SHA256sum: c992bbeb38980d27a6a7057d08b958b1c7050155a0fb6f0955bb58fa4e50c4d1
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -121,16 +121,16 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "afalg"
 
 Package: libopenssl-conf
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 5460
-Filename: libopenssl-conf_3.0.13-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 6480
-SHA256sum: cc8b55d0f0ba35ee90b3de6fcc717be49fb7e0f4e621dc0656759cb7c6a59ce6
+Filename: libopenssl-conf_3.0.14-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 6482
+SHA256sum: 27ba7308b06c98e2785ce7599c6a05ee21de443990b54a322c59eb28c47d6b2e
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -138,16 +138,16 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 8231
-Filename: libopenssl-devcrypto_3.0.13-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 9445
-SHA256sum: 2db4eda6a667db88be8b81832c1fefc1b6ae46dcdbb479fd1b99da7b248b4c17
+Installed-Size: 8226
+Filename: libopenssl-devcrypto_3.0.14-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9412
+SHA256sum: 488360ff8c5fce840ee36c30217a27ccd5ec4e5c06526843ebf62ff6f762e4aa
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -155,23 +155,23 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 24510
-Filename: libopenssl-legacy_3.0.13-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 25432
-SHA256sum: 70a4ce2f8779ba02f6ce77e3d3ff7b926a2e1a304c4e142a653698e2a59db9de
+Installed-Size: 24497
+Filename: libopenssl-legacy_3.0.14-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 25418
+SHA256sum: eabeee52e71792ef7def40f002eb7fe4257f9d05aca841832cbd54bb0fffc514
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libatomic1
 Provides: libopenssl
 License: Apache-2.0
@@ -179,10 +179,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 1512445
-Filename: libopenssl3_3.0.13-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 1498716
-SHA256sum: 864da054f7d382f6b62c3d317a38a615d1708de1f3d4de197b6150abc455d3a6
+Installed-Size: 1513653
+Filename: libopenssl3_3.0.14-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1499774
+SHA256sum: f114f66d2127a0d0ed4d89d209e0a5e35bc2099d5c2c164328b854aef3db5dc1
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -299,8 +299,8 @@ Section: luci
 Architecture: all
 Installed-Size: 715090
 Filename: luci-app-passwall_4.77-6_all.ipk
-Size: 715694
-SHA256sum: ffc3ba72d389a3b1f5d165d52f7e203a040c730a8b40a1025005157ba9c68975
+Size: 715724
+SHA256sum: d3572a8bd07a7f3851800230721e503cd9f41d69772098fcb2ba9d1428c1f5b1
 Description:  LuCI support for PassWall
 
 Package: luci-app-redsocks2
@@ -383,8 +383,8 @@ Section: Custom
 Architecture: all
 Installed-Size: 3349
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
-Size: 4131
-SHA256sum: e6f329ae85ed77c2bbfed6a45abd5b3d7b84738229b56c25c57ef136a5114f9c
+Size: 4120
+SHA256sum: f81683f1287ba89931f2774dc7a28afc0704f0faf3568156a9a6f6ed5be40656
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -411,51 +411,51 @@ SHA256sum: 3c626b8fff65f9184d0e172727de26efe6b78a684d7f582091831bcb0ee28024
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240706.04998
+Version: 240707.05818
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240706.04998_all.ipk
-Size: 3023
-SHA256sum: 34cae2668bcdd7dec2d9f237637f17f5affa4618a2ea36f88f9738cd57452bbb
+Filename: luci-i18n-diskman-pl_240707.05818_all.ipk
+Size: 3024
+SHA256sum: 3e867d83bb4a63ca3a20b2f04df50c3d84b3f657771a8feeb5008f2fdfedd050
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240706.04998
+Version: 240707.05818
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240706.04998_all.ipk
-Size: 3043
-SHA256sum: 0b1f66961d51ae7a12984c00a9dfbfc9f1bd8e681275ed91fd64e94d3439fa91
+Filename: luci-i18n-diskman-zh-cn_240707.05818_all.ipk
+Size: 3042
+SHA256sum: 24fc799881519fa1aae986c435bcfef3d37645e43e3ff044b3f7474d194da92d
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240706.04998
+Version: 240707.05818
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240706.04998_all.ipk
-Size: 3050
-SHA256sum: 0a5254371f258498d25810bb6f409694f3e4fd78bb7b5cae389e4a7d31ef0951
+Filename: luci-i18n-diskman-zh-tw_240707.05818_all.ipk
+Size: 3047
+SHA256sum: 15a6ae9456bea4a490b475b8a516386241d379d3a86bf53f6879b87f6d7cf186
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240706.04998
+Version: 240707.05818
 Depends: libc, luci-app-dockerman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240706.04998_all.ipk
-Size: 6644
-SHA256sum: dc753402fc656c014dd6e98d14e61241907bf7ee5e9d97dde1ce73110b75b6bf
+Filename: luci-i18n-dockerman-zh-cn_240707.05818_all.ipk
+Size: 6642
+SHA256sum: b0fea27c11a479c03eace749fdca3faadac63b7911dd49e316c7816134671430
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -485,10 +485,10 @@ Version: unknown
 Depends: libc, luci-app-passwall
 Section: luci
 Architecture: all
-Installed-Size: 15556
+Installed-Size: 15558
 Filename: luci-i18n-passwall-zh-cn_unknown_all.ipk
-Size: 16339
-SHA256sum: 8461210ac2d11416bf6aae9c4380e0f3afefe8a0d3473ae32b8629c6f73c6eb2
+Size: 16337
+SHA256sum: 287613de49d54247cf6954ecc8cc1a94e4666fb7ec9f943a10e638678df4c00b
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -591,16 +591,16 @@ SHA256sum: f3a4cdfd336a6c6576433b73980471f5a3e466eadf5e06335fd01ba876d20ef5
 Description:  A plug-in DNS forwarder/splitter
 
 Package: openssl-util
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 317082
-Filename: openssl-util_3.0.13-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 314623
-SHA256sum: 1d45dd3e78cfe06bb82af4fdb0378b9ea06bdc63bb3f4828a43f43b34042b939
+Installed-Size: 317199
+Filename: openssl-util_3.0.14-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 314722
+SHA256sum: c07b5da5893c55471b69e53c9a05fac2980d0931dd2282ec5f397409f913a8b7
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -707,27 +707,27 @@ SHA256sum: 2a4338ad8117b26385b36791f8793b5ec9f0fad37cdca7d2e58fa972cf7d7d12
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240706012905-1
+Version: 20240707014210-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 37462
-Filename: v2ray-geoip_20240706012905-1_all.ipk
-Size: 36436
-SHA256sum: 7801ed6166ad21a00138335c329f5fe0bd24141a648421c6910cc5edaa713376
+Installed-Size: 37464
+Filename: v2ray-geoip_20240707014210-1_all.ipk
+Size: 36429
+SHA256sum: 041a092bc59569b39ef91ed6d25d9d3aa87565b889acbc5373e2391c5243010e
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240706012905-1
+Version: 20240707014210-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 2006471
-Filename: v2ray-geosite_20240706012905-1_all.ipk
-Size: 2006879
-SHA256sum: ef83021be3ed5eed97cc798da5a9e165f3495cce4c4fa83d81cdb3270fcf5dc5
+Installed-Size: 2010997
+Filename: v2ray-geosite_20240707014210-1_all.ipk
+Size: 2011550
+SHA256sum: 82804bd0aedd2bac04feaf3b1f84eeb97ff402971427b31726798d0cf475c30c
 Description:  Geosite List for V2Ray
 
 Package: vlmcsd
@@ -738,8 +738,8 @@ Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 60636
 Filename: vlmcsd_svn1113-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 61306
-SHA256sum: 9e87a3487b28f9899002f5bb630afad430ddcd45fbd456bbc0f2d0bb1ee25f79
+Size: 61270
+SHA256sum: aaaf8438848d9841ede130f7536a6058232a69db6ef43fcaa99051201746c900
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
