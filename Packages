@@ -18,8 +18,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 26662195
 Filename: alist_3.35.0-8_x86_64.ipk
-Size: 26552770
-SHA256sum: 227a46f797d1962c95a19d038e901fb448eb8ac80a83b2741f06f779c591f722
+Size: 26554054
+SHA256sum: 589c6621617f911e7d36f49b87515d87984b84b34016333faab47b8a3381bdc2
 Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
 
 Package: chinadns-ng
@@ -104,16 +104,16 @@ Description:  The aim of the mbedtls project is to provide a quality, open-sourc
  This package contains the mbedtls library.
 
 Package: libopenssl-afalg
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 6661
-Filename: libopenssl-afalg_3.0.13-1_x86_64.ipk
-Size: 7868
-SHA256sum: d9e1eb0e1429034368a826a238f6ba1a45b56016fb9192729778e9b138960336
+Installed-Size: 6745
+Filename: libopenssl-afalg_3.0.14-2_x86_64.ipk
+Size: 7959
+SHA256sum: 42cff931798dc39bf31f54557d803791d20d9a4cf04acf1af3a26903919f3fd7
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -121,16 +121,16 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "afalg"
 
 Package: libopenssl-conf
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 5460
-Filename: libopenssl-conf_3.0.13-1_x86_64.ipk
-Size: 6470
-SHA256sum: 3a057d1a1de0ac6fdf698b6d46e18cfc8cfa4560e0fa39a71033ac52134267ea
+Filename: libopenssl-conf_3.0.14-2_x86_64.ipk
+Size: 6468
+SHA256sum: c4ea6d12401396db51f44f8428c5087b2e3b6d1b9d3a4609bad79820d07f02d6
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -138,16 +138,16 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 11280
-Filename: libopenssl-devcrypto_3.0.13-1_x86_64.ipk
-Size: 12449
-SHA256sum: 76e8deeb06b72bb76a18aa260fbe9896a6c353f32c9d749452d1257b25af98e4
+Installed-Size: 11276
+Filename: libopenssl-devcrypto_3.0.14-2_x86_64.ipk
+Size: 12450
+SHA256sum: 63e3fb585ce679d023d29f729d17c44c3a9f6936c61c3aa0f76caece84aa478d
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -155,39 +155,39 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 37607
-Filename: libopenssl-legacy_3.0.13-1_x86_64.ipk
-Size: 38519
-SHA256sum: 5a409b633c7a1023f0cf416aac08a677e33790db99fd9bf694c5a4cc8f1af42c
+Installed-Size: 37630
+Filename: libopenssl-legacy_3.0.14-2_x86_64.ipk
+Size: 38587
+SHA256sum: 35f8bd33a170f25b5210ebfa398a00aa5d1550c33bf08b644fe97cc3e2ca5cd0
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl-padlock
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-hw-padlock
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 10149
-Filename: libopenssl-padlock_3.0.13-1_x86_64.ipk
-Size: 11305
-SHA256sum: 648529883c6224d0edc23c8623b8967e8549e6c46017302772c326ffcc411744
+Installed-Size: 10147
+Filename: libopenssl-padlock_3.0.14-2_x86_64.ipk
+Size: 11300
+SHA256sum: 96ea1f986b733740aab802b6c7029639401d0e3d861e83456e225e58e7415f13
 Description:  This package adds an engine that enables VIA Padlock hardware acceleration.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
  and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
  The engine_id is "padlock"
 
 Package: libopenssl3
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc
 Provides: libopenssl
 License: Apache-2.0
@@ -195,10 +195,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 2103461
-Filename: libopenssl3_3.0.13-1_x86_64.ipk
-Size: 2093477
-SHA256sum: 763c7f3883845e847b130802e1d435ee4a632d69e392a1030a6fd159df8a812a
+Installed-Size: 2106008
+Filename: libopenssl3_3.0.14-2_x86_64.ipk
+Size: 2096362
+SHA256sum: 1ccfd04e3c1a98befbcb415296b7e18261de73536a256b24d23431257123218c
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -315,8 +315,8 @@ Section: luci
 Architecture: all
 Installed-Size: 715090
 Filename: luci-app-passwall_4.77-6_all.ipk
-Size: 715694
-SHA256sum: ffc3ba72d389a3b1f5d165d52f7e203a040c730a8b40a1025005157ba9c68975
+Size: 715724
+SHA256sum: d3572a8bd07a7f3851800230721e503cd9f41d69772098fcb2ba9d1428c1f5b1
 Description:  LuCI support for PassWall
 
 Package: luci-app-redsocks2
@@ -397,10 +397,10 @@ Depends: libc, luci-app-xray, wget
 License: MPLv2
 Section: Custom
 Architecture: all
-Installed-Size: 3350
+Installed-Size: 3349
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
-Size: 4121
-SHA256sum: c52b7ab9416c0cb4480275551af4d18eb802614f1dcee495da346ecfb2d7497f
+Size: 4122
+SHA256sum: 4818651ad861ee8269fd94e4a75d1cd8ba89052320c009f8af8b58fe04071716
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -427,51 +427,51 @@ SHA256sum: 3c626b8fff65f9184d0e172727de26efe6b78a684d7f582091831bcb0ee28024
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240706.04950
+Version: 240707.05825
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240706.04950_all.ipk
-Size: 3024
-SHA256sum: fa9bfa723322e7e53cb6a47b9adf07b4151adf28f2ebfcfe6e819e37d5089a79
+Filename: luci-i18n-diskman-pl_240707.05825_all.ipk
+Size: 3025
+SHA256sum: 2ed9913242469769b4842c3809b465616c16e4e3af0231e4318f73640aedb126
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240706.04950
+Version: 240707.05825
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240706.04950_all.ipk
-Size: 3045
-SHA256sum: 6b65291f2b60f8ada842faf8e233cacd51d66e1fbf7e2ca50224bfd8841a947f
+Filename: luci-i18n-diskman-zh-cn_240707.05825_all.ipk
+Size: 3046
+SHA256sum: cbc5a3db441b28b0b919f21957a909c4748acb5ba193546d3379703e6986a622
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240706.04950
+Version: 240707.05825
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240706.04950_all.ipk
-Size: 3052
-SHA256sum: a537b4561f8f2202f2b6115851aeeaf4af9beeb7cd4fc318bf22031c2ade2ebc
+Filename: luci-i18n-diskman-zh-tw_240707.05825_all.ipk
+Size: 3050
+SHA256sum: bef8cb8c85ae35776c614f19b228ce5c9edc73bb86ab57360919747478b0ee8e
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240706.04950
+Version: 240707.05824
 Depends: libc, luci-app-dockerman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240706.04950_all.ipk
-Size: 6644
-SHA256sum: fb083ecf6219c4e4f2e14cae32a8cca751aa12fb4320495eb82f956e8ed9ab07
+Filename: luci-i18n-dockerman-zh-cn_240707.05824_all.ipk
+Size: 6646
+SHA256sum: 5bac7a5b137c46bccb2f8edbf9d2a77af9274bd6cab79dc9b640f5bb308a8330
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -501,10 +501,10 @@ Version: unknown
 Depends: libc, luci-app-passwall
 Section: luci
 Architecture: all
-Installed-Size: 15556
+Installed-Size: 15558
 Filename: luci-i18n-passwall-zh-cn_unknown_all.ipk
-Size: 16339
-SHA256sum: 8461210ac2d11416bf6aae9c4380e0f3afefe8a0d3473ae32b8629c6f73c6eb2
+Size: 16337
+SHA256sum: 287613de49d54247cf6954ecc8cc1a94e4666fb7ec9f943a10e638678df4c00b
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -607,16 +607,16 @@ SHA256sum: 0ee0bd87a829035b5b21406c0aff06d57ad8a2d54baf076eb2aa0f2f77426faa
 Description:  A plug-in DNS forwarder/splitter
 
 Package: openssl-util
-Version: 3.0.13-1
+Version: 3.0.14-2
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 341068
-Filename: openssl-util_3.0.13-1_x86_64.ipk
-Size: 340068
-SHA256sum: f0057288247f5f720d9b2fc6db03716f6f38f511951ddf585ba7b5d3006cc6af
+Installed-Size: 341196
+Filename: openssl-util_3.0.14-2_x86_64.ipk
+Size: 339937
+SHA256sum: 28fa19a26b16c12dec15380e0402fe0d776ac38f9b41cebbe98e985edf0bc47d
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -723,27 +723,27 @@ SHA256sum: c4048d56dc28c26f191de32912ef760cb00f2577c418ce8499497c4608151893
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240706012826-1
+Version: 20240707014238-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
-Installed-Size: 37462
-Filename: v2ray-geoip_20240706012826-1_all.ipk
-Size: 36432
-SHA256sum: d98470d871f1c959b597a065e4a981c55f2e1b211bb5d260dff085440d4f9e6b
+Installed-Size: 37464
+Filename: v2ray-geoip_20240707014238-1_all.ipk
+Size: 36428
+SHA256sum: c32d44dfdccb2fd49a542f6b1ad12c0e618a6dfe79d438de1fb0cc843f5247cf
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240706012826-1
+Version: 20240707014238-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 2006471
-Filename: v2ray-geosite_20240706012826-1_all.ipk
-Size: 2006882
-SHA256sum: fa7677b51533a6d541f4462d1f401e1cadd541e14e00946b1f6cf536c92d7042
+Installed-Size: 2010997
+Filename: v2ray-geosite_20240707014238-1_all.ipk
+Size: 2011546
+SHA256sum: 00710fba23c94b5babba76400cc76c961d111f16e9bac1be87ee4e09da9b2f65
 Description:  Geosite List for V2Ray
 
 Package: vlmcsd
@@ -754,8 +754,8 @@ Section: net
 Architecture: x86_64
 Installed-Size: 58070
 Filename: vlmcsd_svn1113-1_x86_64.ipk
-Size: 58662
-SHA256sum: 09725fc7e4b71f65570e31b690e8138b8ab8dba4597e3230f843aa4df1880e8c
+Size: 58826
+SHA256sum: 23e7fb10a2c32c95d72c79144b01a0cc34306fda5158a78a3ccaa959d395c400
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
