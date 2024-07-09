@@ -27,8 +27,8 @@ Maintainer: sbwml <admin@cooluc.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 24770979
 Filename: alist_3.35.0-8_arm_cortex-a15_neon-vfpv4.ipk
-Size: 24707202
-SHA256sum: 9b4ff7deae7dbecd8ed0897ef18a2d17c40805004bae435471d8364346ac18ea
+Size: 24707156
+SHA256sum: d9be10dc78d273ebf3afd39ebfbf76576ea5f7c4b2debcd159c15d0245bfba90
 Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
 
 Package: chinadns-ng
@@ -119,7 +119,7 @@ Description:  Hysteria is a feature-packed network utility optimized for network
  of QUIC protocol.
 
 Package: libmbedtls12
-Version: 2.28.7-2
+Version: 2.28.8-1
 Depends: libc
 Provides: libmbedtls
 Source: feeds/base/package/libs/mbedtls
@@ -127,14 +127,14 @@ SourceName: libmbedtls
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: libs
-SourceDateEpoch: 1706521279
+SourceDateEpoch: 1720466006
 ABIVersion: 12
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 206557
-Filename: libmbedtls12_2.28.7-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 207042
-SHA256sum: f1abc6e8067b7322b3b768eaefa106c9c71f4a9fef34455f226e9dc9f5657863
+Installed-Size: 208498
+Filename: libmbedtls12_2.28.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 208999
+SHA256sum: 241277866a8891a67b5954f44d0334575fe39d589fc41481706630d430ee4edd
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -520,8 +520,8 @@ Maintainer: yichya <mail@yichya.dev>
 Architecture: all
 Installed-Size: 3349
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
-Size: 4126
-SHA256sum: fc5181ba03a1c80a1992ed32c90c2f5746171c2d9e7c538407e01efc4bfff457
+Size: 4125
+SHA256sum: 1415fd73be9fd23222a5a83bb3148e460300a51b3eacb196574dc18273ff99d3
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -556,7 +556,7 @@ SHA256sum: 3c626b8fff65f9184d0e172727de26efe6b78a684d7f582091831bcb0ee28024
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240708.05186
+Version: 240709.05178
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-pl
@@ -566,13 +566,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240708.05186_all.ipk
-Size: 3024
-SHA256sum: 64c7a1d7d76d87d464d8d7bc65d634a8c50424015a4f36b8048ee321b5a9777b
+Filename: luci-i18n-diskman-pl_240709.05178_all.ipk
+Size: 3025
+SHA256sum: 0658c76a80c25f72c5e11285405ac07dc54ba3408ad58a3c89ed391a1dfbe41a
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240708.05186
+Version: 240709.05178
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-cn
@@ -582,13 +582,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240708.05186_all.ipk
-Size: 3042
-SHA256sum: 083c27c6fd797e65f4c32033a1cf0c1b7eb62e26ae723827eb41877475d69f34
+Filename: luci-i18n-diskman-zh-cn_240709.05178_all.ipk
+Size: 3044
+SHA256sum: 49b8b9c32fcbc6eff34628f814d358c21b351d22c94cf27d5f81c44129b147a3
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240708.05186
+Version: 240709.05178
 Depends: libc, luci-app-diskman
 Source: package/luci-app-diskman
 SourceName: luci-i18n-diskman-zh-tw
@@ -598,13 +598,13 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <https://github.com/lisaac/luci-app-diskman>
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240708.05186_all.ipk
-Size: 3047
-SHA256sum: 55fa6e814ea765706950a5a5f6c580ffeba7247f21a0ce811339e1c5422a8137
+Filename: luci-i18n-diskman-zh-tw_240709.05178_all.ipk
+Size: 3053
+SHA256sum: 7dcd49322afad6341b20da4104a3691995914ca49cb856e8b439551e548eb304
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240708.05186
+Version: 240709.05178
 Depends: libc, luci-app-dockerman
 Source: package/luci-app-dockerman
 SourceName: luci-i18n-dockerman-zh-cn
@@ -614,9 +614,9 @@ SourceDateEpoch: 1711145382
 Maintainer: lisaac <lisaac.cn@gmail.com> Florian Eckert <fe@dev.tdt.de>
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240708.05186_all.ipk
-Size: 6643
-SHA256sum: da80f4ff3a1fddb8f9a44fa29d3b2b5a0fa5a116c471969d8f2f77b109eed486
+Filename: luci-i18n-dockerman-zh-cn_240709.05178_all.ipk
+Size: 6642
+SHA256sum: 3604e7b653ad973bce30fbdf46884cdb4267c6c239585a07792be17e3aa19957
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -756,20 +756,20 @@ SHA256sum: 52fd8504ada7b04bb006d9313ab8ca778e5f48194004287c38d7aa7425ad7ff0
 Description:  Docker Engine API for LuCI
 
 Package: mbedtls-util
-Version: 2.28.7-2
+Version: 2.28.8-1
 Depends: libc, libmbedtls12
 Source: feeds/base/package/libs/mbedtls
 SourceName: mbedtls-util
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: utils
-SourceDateEpoch: 1706521279
+SourceDateEpoch: 1720466006
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 32400
-Filename: mbedtls-util_2.28.7-2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 33311
-SHA256sum: 206f223b246a537f33ebb8ad28fc85f703148121c97b2fe8356a34e2f8edcf1a
+Installed-Size: 32413
+Filename: mbedtls-util_2.28.8-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 33239
+SHA256sum: fcde5e511d299a5553b5feb622d8b7f63ae1ac5074e0b9b23d05100b2b2ff82f
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
@@ -950,7 +950,7 @@ SHA256sum: 2a4338ad8117b26385b36791f8793b5ec9f0fad37cdca7d2e58fa972cf7d7d12
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240708013213-1
+Version: 20240709013243-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geoip
@@ -961,13 +961,13 @@ SourceDateEpoch: 1717423378
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
 Installed-Size: 37464
-Filename: v2ray-geoip_20240708013213-1_all.ipk
+Filename: v2ray-geoip_20240709013243-1_all.ipk
 Size: 36429
-SHA256sum: 1a024ceabf10c3b4335b3a41b78c53a9753c56ad138f6e1ff733c1a55afdd02c
+SHA256sum: 9d70d29df293fa91a34a6d7dee4f6a18e26a0d912f3117b5c36be30264377535
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240708013213-1
+Version: 20240709013243-1
 Depends: libc
 Source: package/v2ray-geodata
 SourceName: v2ray-geosite
@@ -977,10 +977,10 @@ Section: net
 SourceDateEpoch: 1717423378
 Maintainer: sbwml <admin@cooluc.com>
 Architecture: all
-Installed-Size: 2007711
-Filename: v2ray-geosite_20240708013213-1_all.ipk
-Size: 2007762
-SHA256sum: 93942953500bbb8592e7973c311f8df231851c0ac3936474273d81a985495bf0
+Installed-Size: 2011079
+Filename: v2ray-geosite_20240709013243-1_all.ipk
+Size: 2011613
+SHA256sum: 6b7ff29e52d7855f15102412f468c7b864533567d71210f50734bc797dac0215
 Description:  Geosite List for V2Ray
 
 Package: vlmcsd
@@ -996,8 +996,8 @@ Maintainer: HotBird64
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 60636
 Filename: vlmcsd_svn1113-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 61270
-SHA256sum: 56c1ef7d91a7259c61913985ff304765a7e07e0033a4db0cb320b05841679ce4
+Size: 61313
+SHA256sum: 2d56aef20b989e786a91d096430f98ccdb5d9be4fe7186ff0d3bc12e7afd577a
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
