@@ -186,7 +186,7 @@ libltdl7 - 2.4.7-1
 liblua5.1.5 - 5.1.5-11
 liblucihttp-ucode - 2023-03-15-9b5b683f-1
 liblucihttp0 - 2023-03-15-9b5b683f-1
-libmbedtls12 - 2.28.7-2
+libmbedtls12 - 2.28.8-1
 libmnl0 - 1.0.5-1
 libmount1 - 2.39-2
 libncurses6 - 6.4-2
@@ -317,8 +317,8 @@ urandom-seed - 3
 urngd - 2023-11-01-44365eb1-1
 usbutils - 014-1
 usign - 2020-05-23-f1f65026-1
-v2ray-geoip - 20240708013213-1
-v2ray-geosite - 20240708013213-1
+v2ray-geoip - 20240709013243-1
+v2ray-geosite - 20240709013243-1
 vim-full - 9.0-1
 vim-runtime - 9.0-1
 wget-ssl - 1.21.4-1
