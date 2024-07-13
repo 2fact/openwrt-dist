@@ -16,10 +16,10 @@ Depends: libc, ca-bundle
 License: GPL-3.0
 Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 24770980
+Installed-Size: 24770979
 Filename: alist_3.35.0-8_arm_cortex-a15_neon-vfpv4.ipk
-Size: 24707186
-SHA256sum: 7d95ba2f77a7cf964f7ae16859728d429569373b2cf509171bee7002b86e44e5
+Size: 24707175
+SHA256sum: e05d289c0482753dd06d8b2a88f898b099e9c29b7d5730ada135950339ca6874
 Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
 
 Package: chinadns-ng
@@ -383,8 +383,8 @@ Section: Custom
 Architecture: all
 Installed-Size: 3349
 Filename: luci-app-xray-status_3.4.1-1_all.ipk
-Size: 4127
-SHA256sum: f7087735d135a6bbd54eb6ed3e58688f92dfc76a09c106973845bb1ffa14b326
+Size: 4131
+SHA256sum: 0f9ffdbc031d3c3c9c7b66f10a7a765fa13df3e2f2f45bfa179ff01da7a3dc16
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -411,51 +411,51 @@ SHA256sum: 3c626b8fff65f9184d0e172727de26efe6b78a684d7f582091831bcb0ee28024
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 240712.05136
+Version: 240713.05179
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2188
-Filename: luci-i18n-diskman-pl_240712.05136_all.ipk
-Size: 3021
-SHA256sum: 0756a0c7fcee0b88c1060603b5c91d647a1614a4c510cd31fcf4fc7735855cc1
+Filename: luci-i18n-diskman-pl_240713.05179_all.ipk
+Size: 3024
+SHA256sum: 4bdc0e53ae7c482bc743ff43cc3adbf1d55ef8c86e40ce15768fb44aef33dfae
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 240712.05136
+Version: 240713.05179
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2173
-Filename: luci-i18n-diskman-zh-cn_240712.05136_all.ipk
-Size: 3045
-SHA256sum: 0646c0c8529898cf543004ee519d403c2dbdb06f8c85fb3776abe7b5ec56451d
+Filename: luci-i18n-diskman-zh-cn_240713.05179_all.ipk
+Size: 3046
+SHA256sum: 7c5f8c70ed4155b1ad82a7de5219929ef010f35cb482497ba3fd67a63f970391
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 240712.05136
+Version: 240713.05179
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 2186
-Filename: luci-i18n-diskman-zh-tw_240712.05136_all.ipk
-Size: 3050
-SHA256sum: 14769d14aa99fb305342016e396b91c68c0772e6de9c23fc12039b6dd2c4344a
+Filename: luci-i18n-diskman-zh-tw_240713.05179_all.ipk
+Size: 3047
+SHA256sum: f17fc853082bc0d3ab139d1bce265a14c4fb62c9dfbea66ee1b57039ddac68dd
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 240712.05135
+Version: 240713.05179
 Depends: libc, luci-app-dockerman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 5789
-Filename: luci-i18n-dockerman-zh-cn_240712.05135_all.ipk
-Size: 6647
-SHA256sum: e53ff30b0e445c114b1f0e6f4e51ba3873d75ae45e55d77370b9988b1611e707
+Filename: luci-i18n-dockerman-zh-cn_240713.05179_all.ipk
+Size: 6648
+SHA256sum: 8f6863a599e97be0b1844c6b4125ae936daf9496461880d29cb6e10c2e3cc364
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -707,27 +707,27 @@ SHA256sum: 2a4338ad8117b26385b36791f8793b5ec9f0fad37cdca7d2e58fa972cf7d7d12
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 20240712013125-1
+Version: 20240713013152-1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 Architecture: all
 Installed-Size: 35816
-Filename: v2ray-geoip_20240712013125-1_all.ipk
+Filename: v2ray-geoip_20240713013152-1_all.ipk
 Size: 35699
-SHA256sum: 95bad8aca632e5666339a8443e201ad14c27f7a4a8e3b4a5fa88882943e2364d
+SHA256sum: 35b563ef99a865d44b98c0df5af7ba7159bcc4a6e9bc96bceea5da64aca5866a
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 20240712013125-1
+Version: 20240713013152-1
 Depends: libc
 License: GPL-3.0
 Section: net
 Architecture: all
-Installed-Size: 2012028
-Filename: v2ray-geosite_20240712013125-1_all.ipk
-Size: 2012626
-SHA256sum: ed53196e1b16f0ab7e46234419e016a6dd0d092ad08025c7b66c7ec6a7112aa3
+Installed-Size: 2012443
+Filename: v2ray-geosite_20240713013152-1_all.ipk
+Size: 2013020
+SHA256sum: cec175be05051022795f3e087a53ecf954a3f9819006fc14b8ec8b5caceefe23
 Description:  Geosite List for V2Ray
 
 Package: vlmcsd
@@ -736,10 +736,10 @@ Depends: libc, libpthread
 License: MIT
 Section: net
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 60636
+Installed-Size: 60637
 Filename: vlmcsd_svn1113-1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 61313
-SHA256sum: fcaf946818733ff9f62fb7ec93e3c519d4964795891574b2c55e18dae3e8e5f0
+Size: 61263
+SHA256sum: 9e49099cc3e91f7101e03730d77f200ab1d2b594254969c513acae67048ec63f
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
