@@ -2,8 +2,8 @@ attr - 2.5.1-1
 avahi-dbus-daemon - 0.8-8
 base-files - 1554-r23809-234f1a2efa
 bash - 5.2.15-1
-bind-dig - 9.18.24-1
-bind-libs - 9.18.24-1
+bind-dig - 9.18.27-1
+bind-libs - 9.18.27-1
 block-mount - 2023-02-28-bfe882d5-1
 bnx2-firmware - 20230804-1
 busybox - 1.36.1-1
@@ -267,8 +267,8 @@ urandom-seed - 3
 urngd - 2023-11-01-44365eb1-1
 usbutils - 014-1
 usign - 2020-05-23-f1f65026-1
-v2ray-geoip - 20240720013011-1
-v2ray-geosite - 20240720013011-1
+v2ray-geoip - 20240721014359-1
+v2ray-geosite - 20240721014359-1
 vim-full - 9.0-1
 vim-runtime - 9.0-1
 wget-ssl - 1.21.4-1
