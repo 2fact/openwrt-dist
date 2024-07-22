@@ -84,8 +84,8 @@ jobs:
         #git clone -b master https://github.com/shadowsocks/openwrt-feeds package/custom
         pushd package/openwrt-dist-luci/tools/po2lmo ; make && sudo make install ; popd
         ./scripts/feeds update -a
-        # # Patch Golang version to be >= 1.21.4 for Xray-core
-        # curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/golang/golang/Makefile > feeds/packages/lang/golang/golang/Makefile
+        # Patch Golang version to be >= 1.22 for alist
+        curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/golang/golang/Makefile > feeds/packages/lang/golang/golang/Makefile
         # curl -L https://raw.githubusercontent.com/openwrt/packages/master/lang/rust/Makefile > feeds/packages/lang/rust/Makefile
         # for p in feeds/packages/lang/rust/patches/*; do
         #   curl -L -o $p https://raw.githubusercontent.com/openwrt/packages/master/lang/rust/patches/$(basename $p);
