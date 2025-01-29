@@ -172,8 +172,8 @@ jobs:
         IB_HOME=~/$(basename $IB_URL|head -c -8)
         BRANCH=$(sed -n 's/.*targets\/\(\w*\)\/\(\w*\)\/.*/packages\/\1\/\2/p' <<< $IB_URL)
         cd $IB_HOME
-        sed -i "/check_signature/d" repositories.conf
-        echo "src/gz 2fact https://github.com/2fact/openwrt-dist/raw/$BRANCH" >> repositories.conf
+        # sed -i "/check_signature/d" repositories.conf
+        # echo "src/gz 2fact https://github.com/2fact/openwrt-dist/raw/$BRANCH" >> repositories.conf
         makeopts=("PROFILE=${PROFILE%.*}" "PACKAGES=$PACKAGES")
         [[ -d files ]] && makeopts+=("FILES=files/")
         [[ $ROOTFS_PARTSIZE -gt 0 ]] && makeopts+=("ROOTFS_PARTSIZE=$ROOTFS_PARTSIZE")
