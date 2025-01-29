@@ -131,12 +131,12 @@ jobs:
         include:
         - PROFILE: generic.x86_64
           IB_URL: https://downloads.openwrt.org/releases/23.05.5/targets/x86/64/openwrt-imagebuilder-23.05.5-x86-64.Linux-x86_64.tar.xz
-          PACKAGES: ca-bundle ca-certificates block-mount usbutils coreutils coreutils-base64 curl iperf3 ip-full kmod-ipt-tproxy kmod-nft-tproxy ebtables kmod-ebtables-ipv6 kmod-usb-storage-extras kmod-usb-storage-uas kmod-fs-exfat kmod-fs-vfat kmod-fs-ntfs kmod-fs-ext4 kmod-ipt-nat6 kmod-tun dosfstools ntfs-3g e2fsprogs fdisk libmbedtls luci luci-compat luci-app-samba4 mount-utils uhttpd iperf3 mtr htop tmux lsblk ethtool tcpdump dnsmasq-full -dnsmasq kmod-inet-diag luci-app-statistics xray-core v2ray-geosite v2ray-geoip sing-box openssh-server openssh-sftp-server ss collectd-mod-ping bash vim-full vim-runtime rsync bind-dig hdparm wget-ssl
+          PACKAGES: ca-bundle ca-certificates block-mount usbutils coreutils coreutils-base64 curl iperf3 ip-full kmod-ipt-tproxy kmod-nft-tproxy ebtables kmod-ebtables-ipv6 kmod-usb-storage-extras kmod-usb-storage-uas kmod-fs-exfat kmod-fs-vfat kmod-fs-ntfs kmod-fs-ext4 kmod-ipt-nat6 kmod-tun dosfstools ntfs-3g e2fsprogs fdisk libmbedtls luci luci-compat luci-app-samba4 mount-utils uhttpd iperf3 mtr htop tmux lsblk ethtool tcpdump dnsmasq-full -dnsmasq kmod-inet-diag luci-app-statistics sing-box openssh-server openssh-sftp-server ss collectd-mod-ping bash vim-full vim-runtime rsync bind-dig hdparm wget-ssl iptables-nft kmod-tcp-bbr
           INCLUDE_FILES: false
           ROOTFS_PARTSIZE: 4000
         - PROFILE: netgear_r7800
           IB_URL: https://downloads.openwrt.org/releases/23.05.5/targets/ipq806x/generic/openwrt-imagebuilder-23.05.5-ipq806x-generic.Linux-x86_64.tar.xz
-          PACKAGES: ca-bundle ca-certificates block-mount usbutils coreutils coreutils-base64 curl iperf3 ip-full kmod-ipt-tproxy kmod-nft-tproxy kmod-usb-storage-extras kmod-usb-storage-uas kmod-fs-exfat kmod-fs-vfat kmod-fs-ntfs kmod-fs-ext4 kmod-ipt-nat6 kmod-tun dosfstools ntfs-3g e2fsprogs fdisk libmbedtls luci luci-app-wireguard luci-app-samba4 luci-app-shadowsocks luci-app-smartdns luci-app-dns-forwarder luci-app-openclash kmod-inet-diag stubby mount-utils shadowsocks-libev smartdns uhttpd iperf3 mtr htop tmux lsblk ethtool tcpdump wpad-mbedtls -wpad-basic-mbedtls dnsmasq-full -dnsmasq luci-app-statistics xray-core v2ray-geosite v2ray-geoip sing-box openssh-server openssh-sftp-server ss collectd-mod-ping bash vim-full vim-runtime rsync bind-dig hdparm wget-ssl
+          PACKAGES: ca-bundle ca-certificates block-mount usbutils coreutils coreutils-base64 curl iperf3 ip-full kmod-ipt-tproxy kmod-nft-tproxy kmod-usb-storage-extras kmod-usb-storage-uas kmod-fs-exfat kmod-fs-vfat kmod-fs-ntfs kmod-fs-ext4 kmod-ipt-nat6 kmod-tun dosfstools ntfs-3g e2fsprogs fdisk libmbedtls luci luci-app-wireguard luci-app-samba4 luci-app-shadowsocks luci-app-smartdns luci-app-dns-forwarder luci-app-openclash kmod-inet-diag stubby mount-utils shadowsocks-libev smartdns uhttpd iperf3 mtr htop tmux lsblk ethtool tcpdump wpad-mbedtls -wpad-basic-mbedtls dnsmasq-full -dnsmasq luci-app-statistics sing-box openssh-server openssh-sftp-server ss collectd-mod-ping bash vim-full vim-runtime rsync bind-dig hdparm wget-ssl iptables-nft kmod-tcp-bbr
           INCLUDE_FILES: true
           ROOTFS_PARTSIZE: 0
     steps:
@@ -159,8 +159,8 @@ jobs:
         cd $IB_HOME
         mkdir -p files/root/
         mkdir -p files/etc/opkg/
-        cp ${{ github.workspace }}/simonsmh-dist.pub files/root/
-        echo "src/gz 2fact https://github.com/2fact/openwrt-dist/raw/$BRANCH" > files/etc/opkg/customfeeds.conf
+        # cp ${{ github.workspace }}/simonsmh-dist.pub files/root/
+        # echo "src/gz 2fact https://github.com/2fact/openwrt-dist/raw/$BRANCH" > files/etc/opkg/customfeeds.conf
     - name: Build Image
       shell: bash
       env:
