@@ -121,7 +121,7 @@ jobs:
         done
   buildimg:
     name: Build Openwrt Image
-    needs: buildpkg
+    # needs: buildpkg
     runs-on: ubuntu-latest
     permissions:
       contents: write
