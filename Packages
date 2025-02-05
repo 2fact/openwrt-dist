@@ -20,8 +20,8 @@ URL: http://www.alistgo.com
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 71536640
 Filename: alist_3.42.0-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 28301230
-SHA256sum: 363fbcc831ae94cb082c661fc07881669dc8657adcd408250e55154a39d8ba82
+Size: 28301220
+SHA256sum: 758172de09dc124327dbff388dae45d3718ce3f4c9634d8ed3ff0e36686dd421
 Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
 
 Package: chinadns-ng
@@ -422,8 +422,8 @@ Section: Custom
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-xray-status_3.5.0-r1_all.ipk
-Size: 4150
-SHA256sum: 63eb81ab96a09601592b9a10ad8dbb2f0cc2efcc7fa42ad3008dbcf6f592a350
+Size: 4151
+SHA256sum: d36b04439d5e9d5499d079bea58c16f3cd909a14d201be320edb3676862e9e97
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -450,51 +450,51 @@ SHA256sum: 5029e98ced93c939ca43c8a0c6b52e9412121550a6be7c1936909176dcf0a68f
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 0.250205.27001
+Version: 0.250205.30978
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-pl_0.250205.27001_all.ipk
-Size: 2957
-SHA256sum: 96693fe05400b18319919c9df1cffc13099a8752323f808cce861fccfaf5ccbd
+Filename: luci-i18n-diskman-pl_0.250205.30978_all.ipk
+Size: 2959
+SHA256sum: 5b5bc335a1be443941fecdfbdfc195440db97f3a25296feac4d6a36892748b51
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 0.250205.27001
+Version: 0.250205.30978
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-zh-cn_0.250205.27001_all.ipk
-Size: 2973
-SHA256sum: 269935a9c012f9920a28e7485c1f1f33c839ab0ff9009434fa399f6d6ef5dd5d
+Filename: luci-i18n-diskman-zh-cn_0.250205.30978_all.ipk
+Size: 2976
+SHA256sum: b4ff2e036b9f41646119c2fa8f7e76ae780818547c2b835f48583b18b394de37
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 0.250205.27001
+Version: 0.250205.30978
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-zh-tw_0.250205.27001_all.ipk
-Size: 2990
-SHA256sum: a75c654070bfe90000d5c5f9e41e79cd252f9e2349caecb5df005563bf5ee321
+Filename: luci-i18n-diskman-zh-tw_0.250205.30978_all.ipk
+Size: 2987
+SHA256sum: 722591f179b840453ff2ebd68ae071886bf38f794e1390cec9af6f4c43d79587
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 0.250205.27000
+Version: 0.250205.30978
 Depends: libc, luci-app-dockerman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-dockerman-zh-cn_0.250205.27000_all.ipk
-Size: 6582
-SHA256sum: bbc57293066461c03c43a2c80f5b8985010637b3987cafea894f0d2689fa4c4d
+Filename: luci-i18n-dockerman-zh-cn_0.250205.30978_all.ipk
+Size: 6581
+SHA256sum: 53bcc224bcc90b455b1e3661bbbe8c1a27020cb6323ceef651bc6089d2152b1c
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
@@ -741,7 +741,7 @@ Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 133120
 Filename: vlmcsd_svn1113-r1_arm_cortex-a15_neon-vfpv4.ipk
 Size: 61146
-SHA256sum: c6b19bfaff16ae229c6048b981d4937482449152296f26aaf710ae7dc8a7228a
+SHA256sum: e69422ff1af578596246202a6ba8036c88855f538e168fd9229770c1541d2ffa
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
