@@ -136,7 +136,7 @@ jobs:
           ROOTFS_PARTSIZE: 4000
         - PROFILE: netgear_r7800
           IB_URL: https://downloads.openwrt.org/releases/24.10.0/targets/ipq806x/generic/openwrt-imagebuilder-24.10.0-ipq806x-generic.Linux-x86_64.tar.zst
-          PACKAGES: ca-bundle ca-certificates block-mount usbutils coreutils coreutils-base64 curl iperf3 ip-full kmod-ipt-tproxy kmod-nft-tproxy kmod-usb-storage-extras kmod-usb-storage-uas kmod-fs-exfat kmod-fs-vfat kmod-fs-ntfs kmod-fs-ext4 kmod-ipt-nat6 kmod-tun dosfstools ntfs-3g e2fsprogs fdisk libmbedtls luci luci-app-wireguard luci-app-samba4 kmod-inet-diag stubby mount-utils smartdns uhttpd iperf3 mtr htop tmux lsblk ethtool tcpdump wpad-mbedtls -wpad-basic-mbedtls dnsmasq-full -dnsmasq luci-app-statistics sing-box openssh-server openssh-sftp-server ss collectd-mod-ping bash vim-full vim-runtime rsync bind-dig hdparm wget-ssl iptables-nft kmod-tcp-bbr
+          PACKAGES: ca-bundle ca-certificates block-mount usbutils coreutils coreutils-base64 curl iperf3 ip-full kmod-ipt-tproxy kmod-nft-tproxy kmod-usb-storage-extras kmod-usb-storage-uas kmod-fs-exfat kmod-fs-vfat kmod-fs-ntfs kmod-fs-ext4 kmod-ipt-nat6 kmod-tun dosfstools ntfs-3g e2fsprogs fdisk libmbedtls luci luci-proto-wireguard luci-app-samba4 kmod-inet-diag stubby mount-utils smartdns uhttpd iperf3 mtr htop tmux lsblk ethtool tcpdump wpad-mbedtls -wpad-basic-mbedtls dnsmasq-full -dnsmasq luci-app-statistics sing-box openssh-server openssh-sftp-server ss collectd-mod-ping bash vim-full vim-runtime rsync bind-dig hdparm wget-ssl iptables-nft kmod-tcp-bbr
           INCLUDE_FILES: true
           ROOTFS_PARTSIZE: 0
     steps:
