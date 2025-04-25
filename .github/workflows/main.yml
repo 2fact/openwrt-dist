@@ -76,7 +76,7 @@ jobs:
         mv package/luci-app-passwall2/luci-app-passwall2/* package/luci-app-passwall2/
         # openwrt-passwall-packages (selective)
         git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall-packages
-        for f in dns2socks dns2tcp tcping chinadns-ng sing-box hysteria; do mv package/openwrt-passwall-packages/$f package/; done
+        for f in dns2socks tcping chinadns-ng sing-box hysteria; do mv package/openwrt-passwall-packages/$f package/; done
         rm -rf package/openwrt-passwall-packages/*
         # # libudns for shadowsocksr-libev
         # git clone --depth 1 https://github.com/hqvv/openwrt-udns package/network/utils/openwrt-udns
