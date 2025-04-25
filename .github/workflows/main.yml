@@ -90,7 +90,7 @@ jobs:
         # for p in feeds/packages/lang/rust/patches/*; do
         #   curl -L -o $p https://raw.githubusercontent.com/openwrt/packages/master/lang/rust/patches/$(basename $p);
         # done
-        ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre2 libncursesw6 # rust boost
+        ./scripts/feeds install golang c-ares libev libopenssl libsodium mbedtls pcre2 libncursesw6 rust # boost
     - name: Compile
       run: |
         cd ~/sdk
