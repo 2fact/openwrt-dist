@@ -12,29 +12,29 @@ SHA256sum: b187ef645380ce0a1fe768a2aa77d4c969bb2c19df2dc85013c179ad43f51da4
 Description:  Protect yourself against DNS poisoning in China.
 
 Package: alist
-Version: 3.42.0-r1
+Version: 3.44.0-r1
 Depends: libc, ca-bundle
 License: GPL-3.0
 Section: net
 URL: http://www.alistgo.com
 Architecture: x86_64
-Installed-Size: 83558400
-Filename: alist_3.42.0-r1_x86_64.ipk
-Size: 30489380
-SHA256sum: 571893e06c9a182a5e4b351c6481cb1cc0505af3aac84ca9a118f24b69f7b125
+Installed-Size: 86650880
+Filename: alist_3.44.0-r1_x86_64.ipk
+Size: 31510460
+SHA256sum: bd256adeeebf8c11475d76e51537fc6d5db62413c60cd7fda761a54ebae369d2
 Description:  A file list program that supports multiple storage, powered by Gin and Solidjs.
 
 Package: chinadns-ng
-Version: 2024.12.22-r1
+Version: 2025.03.27-r1
 Depends: libc, ipset
 License: AGPL-3.0-only
 Section: net
 URL: https://github.com/zfl9/chinadns-ng
 Architecture: x86_64
-Installed-Size: 583680
-Filename: chinadns-ng_2024.12.22-r1_x86_64.ipk
-Size: 273255
-SHA256sum: ffd59044efed3ba119e8308033b3b89678d33be4f6ed2bbb5bbb190b08a52cf0
+Installed-Size: 593920
+Filename: chinadns-ng_2025.03.27-r1_x86_64.ipk
+Size: 274723
+SHA256sum: b7791b7d5d6b39223b48d4ab2d92002c6e760186e88685fb2c67666d6c08dcc3
 Description:  ChinaDNS next generation, refactoring with epoll and ipset.
 
 Package: dns-forwarder
@@ -59,23 +59,10 @@ URL: http://dns2socks.sourceforge.net/
 Architecture: x86_64
 Installed-Size: 40960
 Filename: dns2socks_2.1-r2_x86_64.ipk
-Size: 11130
-SHA256sum: c209e6275044b4793c57febb3ff84791625089f74bd58f677fe5662b17be88c3
+Size: 11127
+SHA256sum: fb4ad2638ce38d37535a4fd9482c766114f57108d22ea0ecbb3c0bb839346907
 Description:  This is a command line utility to resolve DNS requests via
  a SOCKS tunnel like Tor or a HTTP proxy.
-
-Package: dns2tcp
-Version: 1.1.2-r1
-Depends: libc
-License: AGPL-3.0-only
-Section: net
-URL: https://github.com/zfl9/dns2tcp
-Architecture: x86_64
-Installed-Size: 40960
-Filename: dns2tcp_1.1.2-r1_x86_64.ipk
-Size: 11096
-SHA256sum: 467b2d267228d115d691e3d4f620a63458d45c216b7e8ce31d730cdee5ea043e
-Description:  utility to convert dns query from udp to tcp
 
 Package: hysteria
 Version: 2.6.1-r1
@@ -86,15 +73,15 @@ URL: https://github.com/apernet/hysteria
 Architecture: x86_64
 Installed-Size: 18913280
 Filename: hysteria_2.6.1-r1_x86_64.ipk
-Size: 7187099
-SHA256sum: 49dd2e4abce0b63c111e9f4e7a51c89d2f956fdb577c8fa4d75071df9ff48c43
+Size: 7189555
+SHA256sum: 7da6dbcf4eb22e15113fdca0d53140322484d51f38cf0428eb618e47aa0753bd
 Description:  Hysteria is a feature-packed network utility optimized for networks
  of poor quality (e.g. satellite connections, congested public Wi-Fi,
  connecting from China to servers abroad) powered by a custom version
  of QUIC protocol.
 
 Package: libmbedtls21
-Version: 3.6.2-r1
+Version: 3.6.3-r1
 Depends: libc
 Provides: libmbedtls
 License: GPL-2.0-or-later
@@ -104,15 +91,15 @@ ABIVersion: 21
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 686080
-Filename: libmbedtls21_3.6.2-r1_x86_64.ipk
-Size: 309118
-SHA256sum: 4f45dfaa6bbac0b7f2be2609cabe7e51a8cc20a11d08982f477ee0e9aad101d1
+Filename: libmbedtls21_3.6.3-r1_x86_64.ipk
+Size: 310102
+SHA256sum: 94d5a183ea8d329584efbaf12327b7c867faa4d276f9a79209ff8e5dd721a962
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
 
 Package: libopenssl-afalg
-Version: 3.0.15-r1
+Version: 3.0.16-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-user
 License: Apache-2.0
 Section: libs
@@ -120,9 +107,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 30720
-Filename: libopenssl-afalg_3.0.15-r1_x86_64.ipk
-Size: 7976
-SHA256sum: 2ff86ba652dc7f16697fd4b72bd6bf071cb124fe0bbe2a0699d916a50f7dcb30
+Filename: libopenssl-afalg_3.0.16-r1_x86_64.ipk
+Size: 7978
+SHA256sum: e474a6e97ce53035877ab026787660b956a817e0921af6a02f9a1066d1d13c74
 Description:  This package adds an engine that enables hardware acceleration
  through the AF_ALG kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -130,7 +117,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "afalg"
 
 Package: libopenssl-conf
-Version: 3.0.15-r1
+Version: 3.0.16-r1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
@@ -138,9 +125,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 20480
-Filename: libopenssl-conf_3.0.15-r1_x86_64.ipk
+Filename: libopenssl-conf_3.0.16-r1_x86_64.ipk
 Size: 6489
-SHA256sum: b0fa6d679f3e7c412a63d5de5ffba97ca19b82969ab946cee3c8e4b6d3a8ba91
+SHA256sum: 0067d1a740c8641b896409912c6eab67c3f1c7d658b9e2102946020afe34af4c
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -148,7 +135,7 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.15-r1
+Version: 3.0.16-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 License: Apache-2.0
 Section: libs
@@ -156,9 +143,9 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 40960
-Filename: libopenssl-devcrypto_3.0.15-r1_x86_64.ipk
+Filename: libopenssl-devcrypto_3.0.16-r1_x86_64.ipk
 Size: 12488
-SHA256sum: de4b728c28754f5eba5338c0b07e303e85359ae0dcbd3c603d365ea566242c81
+SHA256sum: b6bf3693f477ce3c70c61f5a9ba3d88c2aa9e6d32d822558de3a6fd04084508e
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -166,7 +153,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
-Version: 3.0.15-r1
+Version: 3.0.16-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: libs
@@ -174,16 +161,16 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 133120
-Filename: libopenssl-legacy_3.0.15-r1_x86_64.ipk
-Size: 38525
-SHA256sum: 42f7bdb9d41a18c99e2914d8878f897c6299f592e1d4c535aa6b8ca7732f3703
+Filename: libopenssl-legacy_3.0.16-r1_x86_64.ipk
+Size: 38539
+SHA256sum: d7230c4f641e51705da8daefb2d185038827324feee2c721881aa0c7b723043c
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl-padlock
-Version: 3.0.15-r1
+Version: 3.0.16-r1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-crypto-hw-padlock
 License: Apache-2.0
 Section: libs
@@ -191,16 +178,16 @@ URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 40960
-Filename: libopenssl-padlock_3.0.15-r1_x86_64.ipk
-Size: 11338
-SHA256sum: 159ef86d08be8242dc3d7f5087bbe3f951f6a2e35d495c14591d88d5b4e0cca5
+Filename: libopenssl-padlock_3.0.16-r1_x86_64.ipk
+Size: 11342
+SHA256sum: 9931916a4bf14514d5e3d8e07bb1a3cc63a533cdd8584d992ac91db225b14a76
 Description:  This package adds an engine that enables VIA Padlock hardware acceleration.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
  and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
  The engine_id is "padlock"
 
 Package: libopenssl3
-Version: 3.0.15-r1
+Version: 3.0.16-r1
 Depends: libc
 Provides: libopenssl
 License: Apache-2.0
@@ -210,9 +197,9 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
 Installed-Size: 5099520
-Filename: libopenssl3_3.0.15-r1_x86_64.ipk
-Size: 2096810
-SHA256sum: 38c91019570401f774e0f55c950264b13f658f6688696615ed71f558a5369838
+Filename: libopenssl3_3.0.16-r1_x86_64.ipk
+Size: 2097262
+SHA256sum: 45e01f6d80609ddf139a5a8854c511417b2ba6ebf1cc26ee3f2da496f73266d5
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -262,15 +249,15 @@ SHA256sum: a46620d240f631da9db9ad3fa34620c82d9d0a8c34f06c5e0b244de6cfefc62a
 Description:  A Perl Compatible Regular Expression library
 
 Package: luci-app-alist
-Version: 1.1.2-r1
+Version: 1.1.3-r1
 Depends: libc, alist
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-alist_1.1.2-r1_all.ipk
-Size: 5293
-SHA256sum: 52efa1c210c97fbadcc72c10688a7b633e69413e4a9d1db0065cc991649b018c
+Filename: luci-app-alist_1.1.3-r1_all.ipk
+Size: 5712
+SHA256sum: 6e27628a6aeacc25dd9a9e16a934ca7c5cb07d4d656c9d8e09d752c4d980d0dc
 Description:  LuCI support for alist
 
 Package: luci-app-chinadns
@@ -294,8 +281,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 112640
 Filename: luci-app-diskman_0.2.13-r1_all.ipk
-Size: 21684
-SHA256sum: eb6efefeaabdab08039eefd33765ffa87b67d453ecfd02ccc40f644b435a0472
+Size: 21677
+SHA256sum: 8144e30c90b5b41b8c3b7672067a7a7fcb2dd451af573f7826323b67490dbb6a
 Description:  Disk Manager interface for LuCI
 
 Package: luci-app-dns-forwarder
@@ -319,67 +306,67 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 256000
 Filename: luci-app-dockerman_v0.5.26-r1_all.ipk
-Size: 54278
-SHA256sum: 31e94d40065e4e6501f508a829e12beb6aa4497bbe88982277bb8c5dd579fbdc
+Size: 54274
+SHA256sum: d0bb08e11c73d097225ebfb48b9d4b72ba7a030069af72ec9dd064293dabc769
 Description:  LuCI Support for docker
 
 Package: luci-app-homeproxy
-Version: 25.027.46084~8b6b793
+Version: 25.096.46349~714b3e7
 Depends: libc, sing-box, firewall4, kmod-nft-tproxy
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 1669120
-Filename: luci-app-homeproxy_25.027.46084~8b6b793_all.ipk
-Size: 513514
-SHA256sum: a21e16d56a27cc9b9d4f34343aba66f782d2931c7e19763b4554cd6671243e46
+Installed-Size: 1832960
+Filename: luci-app-homeproxy_25.096.46349~714b3e7_all.ipk
+Size: 564673
+SHA256sum: c04d1bbf77dc750680caf850b9ae79bc6c1e933dbb49f3c2f029bc4751d7c6af
 Description:  The modern ImmortalWrt proxy platform for ARM64/AMD64
 
 Package: luci-app-mosdns
-Version: 1.6.9-r1
+Version: 1.6.11-r1
 Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 358400
-Filename: luci-app-mosdns_1.6.9-r1_all.ipk
-Size: 92069
-SHA256sum: d34dcbc60e1dc44badda997121e9801368e62f99baff2ff3afb7c893646af4cd
+Installed-Size: 348160
+Filename: luci-app-mosdns_1.6.11-r1_all.ipk
+Size: 91999
+SHA256sum: 0fdb287a1f243b461dfc3ed318e9d400d0daffab8e7f7ae62f1fdc1b3f54b5ed
 Description:  LuCI Support for mosdns
 
 Package: luci-app-openclash
-Version: 0.46.064
-Depends: libc, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, ca-certificates, ip-full, libcap, libcap-bin, ruby, ruby-yaml, kmod-tun, unzip
+Version: 0.46.079
+Depends: libc, dnsmasq-full, bash, curl, ca-bundle, ip-full, ruby, ruby-yaml, kmod-tun, unzip
 Section: opt
 Architecture: all
-Installed-Size: 20746240
-Filename: luci-app-openclash_0.46.064_all.ipk
-Size: 7862442
-SHA256sum: 75bfd158fbbf514e0f28a56ea85d29e227cfa7c13cce0b23fecf469206dcda63
+Installed-Size: 23009280
+Filename: luci-app-openclash_0.46.079_all.ipk
+Size: 9220522
+SHA256sum: cf84b6f18fa365b9ba0de41cfb17bf8b35cd84330b4c186d88040afc68e1a01b
 Description:  A LuCI support for clash
 
 Package: luci-app-passwall2
-Version: 25.1.27-r1
+Version: 25.4.22-r1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, resolveip, tcping, xray-core, geoview, v2ray-geoip, v2ray-geosite, unzip, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 952320
-Filename: luci-app-passwall2_25.1.27-r1_all.ipk
-Size: 247310
-SHA256sum: 402e0b8b6132498f967550dd3af9bff4a7a3691b13197ff9644df8217df5f187
+Installed-Size: 962560
+Filename: luci-app-passwall2_25.4.22-r1_all.ipk
+Size: 250063
+SHA256sum: 02c44e216407389a5b7906c2b3a183ba8800d5bc7a4601f931c0dff1d02dcb27
 Description:  LuCI support for PassWall 2
 
 Package: luci-app-passwall
-Version: 25.1.28-r1
+Version: 25.4.20-r1
 Depends: libc, coreutils, coreutils-base64, coreutils-nohup, curl, chinadns-ng, dns2socks, dnsmasq-full, ip-full, libuci-lua, lua, luci-compat, luci-lib-jsonc, microsocks, resolveip, tcping, luci-lua-runtime
 Section: luci
 URL: https://github.com/openwrt/luci
 Architecture: all
-Installed-Size: 2775040
-Filename: luci-app-passwall_25.1.28-r1_all.ipk
-Size: 839286
-SHA256sum: 5b595b44db7debb55b0ce90122834ff187e1e4ab82991d2979aa8a45321d2e73
+Installed-Size: 2805760
+Filename: luci-app-passwall_25.4.20-r1_all.ipk
+Size: 845890
+SHA256sum: 6c00b50f955d4ae06da61effb67b16ee96cacd08e21de2c09f9bc4a3f154f88b
 Description:  LuCI support for PassWall
 
 Package: luci-app-redsocks2
@@ -406,19 +393,6 @@ Size: 2906
 SHA256sum: d33ae424c8df0c51841bc4d98d65c34f45500595f480759b9f5d339635592aa1
 Description:  LuCI Support for ShadowVPN.
 
-Package: luci-app-smartdns
-Version: 1.2024.45-r1
-Depends: libc, smartdns
-License: GPL-3.0-or-later
-Section: luci
-URL: https://github.com/openwrt/luci
-Architecture: all
-Installed-Size: 71680
-Filename: luci-app-smartdns_1.2024.45-r1_all.ipk
-Size: 10662
-SHA256sum: 049232367eb039210252790d61559b7a3f4f221a5b5d5436a12d709ac3601577
-Description:  Provides Luci for smartdns
-
 Package: luci-app-vlmcsd
 Version: 1.0.2-r1
 Depends: libc, vlmcsd
@@ -439,8 +413,8 @@ Section: Custom
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-xray-status_3.5.0-r1_all.ipk
-Size: 4151
-SHA256sum: 8b4a9003cd3b6e645d780bc278657f46f17ac45b8e39beee2680e432535cf07e
+Size: 4154
+SHA256sum: 741c07deedc8fcbe7795a05ca3be5b77432170447bfd5ac90f48a5c3c58c5a8c
 Description:  LuCI Support for Xray (Client-side Rendered) (status page).
 
 Package: luci-app-xray
@@ -451,89 +425,89 @@ Section: Custom
 Architecture: all
 Installed-Size: 215040
 Filename: luci-app-xray_3.5.0-r1_all.ipk
-Size: 32632
-SHA256sum: 7f568660dad5adf880bcf022917b809e5b9d224c2a44bb89d396d886ef2d9c30
+Size: 32637
+SHA256sum: 2978f9b4f4267f19e2095a1c1b5b74725a68256ec226dfe59833d29e3a36c62b
 Description:  LuCI Support for Xray (Client-side Rendered).
 
 Package: luci-i18n-alist-zh-cn
-Version: 25.027.60605~cc2b710
+Version: 25.086.59105~fe578e6
 Depends: libc, luci-app-alist
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-alist-zh-cn_25.027.60605~cc2b710_all.ipk
-Size: 2999
-SHA256sum: 5029e98ced93c939ca43c8a0c6b52e9412121550a6be7c1936909176dcf0a68f
+Filename: luci-i18n-alist-zh-cn_25.086.59105~fe578e6_all.ipk
+Size: 3367
+SHA256sum: 447ad8e101c73f5d67577e051a71361e364b71c5b6c5623a7041ac499ade6f66
 Description:  Translation for luci-app-alist - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-pl
-Version: 0.250205.31009
+Version: 0.250425.45877
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-pl_0.250205.31009_all.ipk
+Filename: luci-i18n-diskman-pl_0.250425.45877_all.ipk
 Size: 2959
-SHA256sum: fd5c05a93e867a181532d213735730efec22cb92446040237745a442c77467d8
+SHA256sum: 521a4f2adbc9eeca6e404e992aaebb58cbed7aa8f57aa9325860211e2337c769
 Description:  Translation for luci-app-diskman - Polski (Polish)
 
 Package: luci-i18n-diskman-zh-cn
-Version: 0.250205.31009
+Version: 0.250425.45877
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-zh-cn_0.250205.31009_all.ipk
-Size: 2972
-SHA256sum: bfa54fe46f02aa712b282bef69a39e8669636269291d163634c2d9df766f1a15
+Filename: luci-i18n-diskman-zh-cn_0.250425.45877_all.ipk
+Size: 2975
+SHA256sum: 4ab4969c426cf281f86640fc83afd05e935ed3e1f61866caf89529fa2a36bbe3
 Description:  Translation for luci-app-diskman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-diskman-zh-tw
-Version: 0.250205.31009
+Version: 0.250425.45877
 Depends: libc, luci-app-diskman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-diskman-zh-tw_0.250205.31009_all.ipk
-Size: 2988
-SHA256sum: 95d89c5b43976e984455a434b4c2faed8e5517386e5dbaa485bf4949554c639b
+Filename: luci-i18n-diskman-zh-tw_0.250425.45877_all.ipk
+Size: 2986
+SHA256sum: d8bac7aa745a06bc0048d8846fe547c17e3e4156112524236cc54fdd062357b2
 Description:  Translation for luci-app-diskman - 繁體中文 (Chinese Traditional)
 
 Package: luci-i18n-dockerman-zh-cn
-Version: 0.250205.31009
+Version: 0.250425.45877
 Depends: libc, luci-app-dockerman
 License: AGPL-3.0
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-dockerman-zh-cn_0.250205.31009_all.ipk
-Size: 6588
-SHA256sum: 6716c7a2c27f1d0f5a312e1620ba9f4c2b2c506f87060a4f328299ed02e0e500
+Filename: luci-i18n-dockerman-zh-cn_0.250425.45877_all.ipk
+Size: 6579
+SHA256sum: ab3828fa3f81f64b7be01834c5a0396089eed8807b1b5cc3c1c7fc7ad7616e89
 Description:  Translation for luci-app-dockerman - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-homeproxy-zh-cn
-Version: 25.027.46084~8b6b793
+Version: 25.096.46349~714b3e7
 Depends: libc, luci-app-homeproxy
 Section: luci
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-homeproxy-zh-cn_25.027.46084~8b6b793_all.ipk
-Size: 14393
-SHA256sum: 7f187870bd2e1c2e48ed2a6e94b92ed759de157a7fae377c5b065d72f064e9b6
+Filename: luci-i18n-homeproxy-zh-cn_25.096.46349~714b3e7_all.ipk
+Size: 14458
+SHA256sum: 295c1a6e993ef9c8776693cf109cf6c3428a4ea7c840305b9879d7e6f1a311e2
 Description:  Translation for luci-app-homeproxy - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-mosdns-zh-cn
-Version: 25.008.15596~6e2a962
+Version: 25.074.47349~2c0a056
 Depends: libc, luci-app-mosdns
 Section: luci
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-mosdns-zh-cn_25.008.15596~6e2a962_all.ipk
-Size: 5749
-SHA256sum: 70636c1a91ead120cfe8933f68dabf0aaebf29ef87efc0c822505c1b05244011
+Filename: luci-i18n-mosdns-zh-cn_25.074.47349~2c0a056_all.ipk
+Size: 5745
+SHA256sum: 395d02aeb81b60f4f359cc44b7d5f5281777cfd275501b6ecdde761d09c6f5b8
 Description:  Translation for luci-app-mosdns - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall-zh-cn
@@ -543,8 +517,8 @@ Section: luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall-zh-cn_0_all.ipk
-Size: 17589
-SHA256sum: f1652cf62eb688b337824fadd53d2cb22ae4f257ea99314f47f0e584644a79a8
+Size: 18434
+SHA256sum: 3484789ffbba5db0ea795b98a5cbc4430dde9e3c6d2ac50dd2b2b950a62fd584
 Description:  Translation for luci-app-passwall - 简体中文 (Chinese Simplified)
 
 Package: luci-i18n-passwall2-zh-cn
@@ -554,57 +528,9 @@ Section: luci
 Architecture: all
 Installed-Size: 40960
 Filename: luci-i18n-passwall2-zh-cn_0_all.ipk
-Size: 16311
-SHA256sum: ed14c83732f14649a43a960ebb693f51c9db3805d66b07b35fa910e3fac504c2
+Size: 16730
+SHA256sum: 69041c96aa475dcf9304feccb88480e2ba5620a387079895c81569e3fe405bfb
 Description:  Translation for luci-app-passwall2 - 简体中文 (Chinese Simplified)
-
-Package: luci-i18n-smartdns-de
-Version: 25.017.82113~81fccc1
-Depends: libc, luci-app-smartdns
-License: GPL-3.0-or-later
-Section: luci
-Architecture: all
-Installed-Size: 20480
-Filename: luci-i18n-smartdns-de_25.017.82113~81fccc1_all.ipk
-Size: 4281
-SHA256sum: fa107aa0f20747c0e3c2788b113653ec51c2670237b18c63b49d75aa0c9b11a4
-Description:  Translation for luci-app-smartdns - Deutsch (German)
-
-Package: luci-i18n-smartdns-es
-Version: 25.017.82113~81fccc1
-Depends: libc, luci-app-smartdns
-License: GPL-3.0-or-later
-Section: luci
-Architecture: all
-Installed-Size: 20480
-Filename: luci-i18n-smartdns-es_25.017.82113~81fccc1_all.ipk
-Size: 4193
-SHA256sum: ef09289c3351b53c6112bd54bee921640be8e6cbe8269446b955673c3f774105
-Description:  Translation for luci-app-smartdns - Español (Spanish)
-
-Package: luci-i18n-smartdns-zh-cn
-Version: 25.017.82113~81fccc1
-Depends: libc, luci-app-smartdns
-License: GPL-3.0-or-later
-Section: luci
-Architecture: all
-Installed-Size: 20480
-Filename: luci-i18n-smartdns-zh-cn_25.017.82113~81fccc1_all.ipk
-Size: 7899
-SHA256sum: 5c68004635f38ea5850f830eef00c122e5942020a0dbbc28e0be517f5ccf09fb
-Description:  Translation for luci-app-smartdns - 简体中文 (Chinese Simplified)
-
-Package: luci-i18n-smartdns-zh-tw
-Version: 25.017.82113~81fccc1
-Depends: libc, luci-app-smartdns
-License: GPL-3.0-or-later
-Section: luci
-Architecture: all
-Installed-Size: 20480
-Filename: luci-i18n-smartdns-zh-tw_25.017.82113~81fccc1_all.ipk
-Size: 4081
-SHA256sum: d8786ee98c8957adddaff7bc8fb586ed862998426b455f02e739bc6163f1cd6c
-Description:  Translation for luci-app-smartdns - 繁體中文 (Chinese Traditional)
 
 Package: luci-lib-docker
 Version: v0.3.4-r1
@@ -615,12 +541,12 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 20480
 Filename: luci-lib-docker_v0.3.4-r1_all.ipk
-Size: 4674
-SHA256sum: ad3411a04ef296ccbf93d5e8bcd01a2ea15662be41319ef8dee03aa6f895601d
+Size: 4673
+SHA256sum: f9caaecfa26b4273bd99ea5b71a8dd8bcfd4c57a72183e4acf83cbdfb027ba47
 Description:  Docker Engine API for LuCI
 
 Package: mbedtls-util
-Version: 3.6.2-r1
+Version: 3.6.3-r1
 Depends: libc, libmbedtls21
 License: GPL-2.0-or-later
 Section: utils
@@ -628,39 +554,39 @@ URL: https://www.trustedfirmware.org/projects/mbed-tls/
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: x86_64
 Installed-Size: 40960
-Filename: mbedtls-util_3.6.2-r1_x86_64.ipk
-Size: 8992
-SHA256sum: 59a1bccee018f52d8f1608e2dd7be63c9d05ee443e38320b428653ad7bb3fca7
+Filename: mbedtls-util_3.6.3-r1_x86_64.ipk
+Size: 8988
+SHA256sum: 1d698a3ab4cb893a8986f565a8d1108755baa7ea707a9b3ae08f45c450d6a269
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains mbedtls helper programs for private key and
  CSR generation (gen_key, cert_req)
 
 Package: mosdns
-Version: 5.3.3-r3
+Version: 5.3.3-r4
 Depends: libc, ca-bundle
 License: GPL-3.0
 Section: net
 URL: https://github.com/IrineSistiana/mosdns
 Architecture: x86_64
-Installed-Size: 17592320
-Filename: mosdns_5.3.3-r3_x86_64.ipk
-Size: 6721254
-SHA256sum: accbc751b13e9a1cec081f0e4f7c2f3e7c1d743b7fd4c15c84f56ac9d622f029
+Installed-Size: 18339840
+Filename: mosdns_5.3.3-r4_x86_64.ipk
+Size: 7009315
+SHA256sum: 9c49ae0c7e6bc1f9cc2fed9f5a86dd46fd850a59b1be71baa908ba68903ad96d
 Description:  A plug-in DNS forwarder/splitter
 
 Package: openssl-util
-Version: 3.0.15-r1
+Version: 3.0.16-r1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
 URL: https://www.openssl.org/
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: x86_64
-Installed-Size: 839680
-Filename: openssl-util_3.0.15-r1_x86_64.ipk
-Size: 341448
-SHA256sum: 0fbc04be6c3302daf21518df24361836ee0b0ce740e5af81261aecfb16db2182
+Installed-Size: 849920
+Filename: openssl-util_3.0.16-r1_x86_64.ipk
+Size: 343437
+SHA256sum: 9803cc1b10372ea54f48e4e1833610e63d3135a8ca983249b8019aff16d2a124
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -668,33 +594,18 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package contains the OpenSSL command-line utility.
 
 Package: sing-box
-Version: 1.11.1-r1
+Version: 1.11.8-r1
 Depends: libc, ca-bundle, kmod-inet-diag, kmod-netlink-diag, kmod-tun
 License: GPL-3.0-or-later
 Section: net
 URL: https://sing-box.sagernet.org
 Architecture: x86_64
-Installed-Size: 31191040
-Filename: sing-box_1.11.1-r1_x86_64.ipk
-Size: 11495526
-SHA256sum: d3ddaea1864794efe8abf3f8d98324081bddc4a0b04dccef9ad06c7bc26cd12e
+Installed-Size: 31283200
+Filename: sing-box_1.11.8-r1_x86_64.ipk
+Size: 11530276
+SHA256sum: f456a4945ad14c608d50e972f808c1d9b5f1724006a41291f83dd450919b65d6
 Description:  Sing-box is a universal proxy platform which supports hysteria, SOCKS,
  Shadowsocks, ShadowTLS, Tor, trojan, VLess, VMess, WireGuard and so on.
-
-Package: smartdns
-Version: 1.2024.45-r1
-Depends: libc, libpthread, libopenssl3
-License: GPL-3.0-or-later
-Section: net
-URL: https://www.github.com/pymumu/smartdns/
-Architecture: x86_64
-Installed-Size: 409600
-Filename: smartdns_1.2024.45-r1_x86_64.ipk
-Size: 180099
-SHA256sum: 786d796f36865b8544170ef8bf7e3a0b66764f337e42c3e569906942ac5338bb
-Description:  SmartDNS is a local DNS server which accepts DNS query requests from local network clients,
- gets DNS query results from multiple upstream DNS servers concurrently, and returns the fastest IP to clients.
- Unlike dnsmasq's all-servers, smartdns returns the fastest IP, and encrypt DNS queries with DoT or DoH. 
 
 Package: tcping
 Version: 0.3-r1
@@ -705,47 +616,47 @@ URL: https://github.com/jlyo/tcping
 Architecture: x86_64
 Installed-Size: 20480
 Filename: tcping_0.3-r1_x86_64.ipk
-Size: 4431
-SHA256sum: a1ae7324014ae5d7faca458bc44398ddb19cecf0c5577ee8a933ce953a7f6359
+Size: 4432
+SHA256sum: ee7799ef891cb49cd34cc8a9f554ec3b70a6412ad8523053bbd15f94b84434e9
 Description:  tcping measures the latency of a tcp-connection
 
 Package: v2dat
-Version: 2022.12.15~47b8ee51-r1
+Version: 2022.12.15~47b8ee51-r2
 Depends: libc
 License: GPL-3.0
 Section: utils
 URL: https://github.com/urlesistiana/v2dat
 Architecture: x86_64
-Installed-Size: 7751680
-Filename: v2dat_2022.12.15~47b8ee51-r1_x86_64.ipk
-Size: 3059494
-SHA256sum: e888dad54d9b4315f4b35426858e2945e08ba36ab14d373a474a0d815e1c163e
+Installed-Size: 5734400
+Filename: v2dat_2022.12.15~47b8ee51-r2_x86_64.ipk
+Size: 2294516
+SHA256sum: 9a79bdf9f72c8d6e67a62e74cb278915b20d4bce81fd523ec93825e270dc0a6e
 Description:  V2ray geo/ip data unpack tools
 
 Package: v2ray-geoip
-Version: 2025.02.05-r1
+Version: 2025.04.25-r1
 Depends: libc
 License: CC-BY-SA-4.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 348160
-Filename: v2ray-geoip_2025.02.05-r1_all.ipk
-Size: 61355
-SHA256sum: a335f54eb1f225d536802aeef0b438b3b65bdd6da4dee4922bb3817dd1b3963d
+Installed-Size: 358400
+Filename: v2ray-geoip_2025.04.25-r1_all.ipk
+Size: 64445
+SHA256sum: 19d200b4e6016e61b0beefa72efc2d43697371c6d45337026564ffc15530983e
 Description:  GeoIP List for V2Ray
 
 Package: v2ray-geosite
-Version: 2025.02.05-r1
+Version: 2025.04.25-r1
 Depends: libc
 License: GPL-3.0
 Section: net
 URL: https://www.v2fly.org
 Architecture: all
-Installed-Size: 6993920
-Filename: v2ray-geosite_2025.02.05-r1_all.ipk
-Size: 2189295
-SHA256sum: 0f30af3acf291b9c05a947242ffc55a172e6bf3181738191f0770715ef5f1952
+Installed-Size: 9359360
+Filename: v2ray-geosite_2025.04.25-r1_all.ipk
+Size: 2937949
+SHA256sum: eb3cc25e1b89fc1c5212d05bb7f38806a611ab8302a2ae80a87e37160a652e03
 Description:  Geosite List for V2Ray
 
 Package: vlmcsd
@@ -757,8 +668,8 @@ URL: http://forums.mydigitallife.info/threads/50234
 Architecture: x86_64
 Installed-Size: 133120
 Filename: vlmcsd_svn1113-r1_x86_64.ipk
-Size: 58575
-SHA256sum: 4a0b932e1190237951f05e6bde9f46e1b50a2aff4606bb88c564fffe7ca2c77a
+Size: 58553
+SHA256sum: 9652618cbb852e4f74905c8cc3231261e5386132a10b3d04839f9071073dcebc
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: zlib-dev
@@ -770,8 +681,8 @@ CPE-ID: cpe:/a:gnu:zlib
 Architecture: x86_64
 Installed-Size: 235520
 Filename: zlib-dev_1.3.1-r1_x86_64.ipk
-Size: 80523
-SHA256sum: 8f4cc0e0539ed478c64a15571937396d4c949f26460c61a9c575356a749c9d19
+Size: 80534
+SHA256sum: 77cd39bf5eeee4e7945086768f169ed903bd0157b2cb15a505a14ed7f7c0896a
 Description:  zlib is a lossless data-compression library.
  This package includes the development support files.
 
